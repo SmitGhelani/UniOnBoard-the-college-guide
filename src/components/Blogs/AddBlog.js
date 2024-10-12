@@ -32,7 +32,7 @@ const AddBlog = () => {
 		};
 		
 		 axios
-			.post("http://unionboard-backend.smitghelani.xyz/faculty/blog/add", formData, config)
+			.post("https://unionboard-backend.smitghelani.xyz/faculty/blog/add", formData, config)
 			.then(async(res) => {
 				setTitle('')
 				setContent('')

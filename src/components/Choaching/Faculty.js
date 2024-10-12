@@ -38,19 +38,19 @@ function Faculty (props) {
                     transitionMs={500}
                     >
                     <Item>
-                        <Facultycards title="Dr.Keyur Brahmbhatt" description="AI & DATA ANALYSIS" imgsrc="http://unionboard.smitghelani.xyz/keyurSir.jpg" />
+                        <Facultycards title="Dr.Keyur Brahmbhatt" description="AI & DATA ANALYSIS" imgsrc="https://unionboard.smitghelani.xyz/keyurSir.jpg" />
                     </Item>
                     <Item>
-                        <Facultycards title=" Dr.Zankhana Shah" description="THEORY OF COMPUTATION" imgsrc="http://unionboard.smitghelani.xyz/zankhanaMam.jpg"/>
+                        <Facultycards title=" Dr.Zankhana Shah" description="THEORY OF COMPUTATION" imgsrc="https://unionboard.smitghelani.xyz/zankhanaMam.jpg"/>
                     </Item>
                     <Item>
-                        <Facultycards title=" Mr.Vishal Polara" description="PYTHON PROGRAMMING" imgsrc="http://unionboard.smitghelani.xyz/vishalSir.jpg"/>
+                        <Facultycards title=" Mr.Vishal Polara" description="PYTHON PROGRAMMING" imgsrc="https://unionboard.smitghelani.xyz/vishalSir.jpg"/>
                     </Item>
                     <Item>
-                        <Facultycards title=" Prachi Shah" description="OPERATING SYSTEMS" imgsrc="http://unionboard.smitghelani.xyz/prachiMam.jpg"/>
+                        <Facultycards title=" Prachi Shah" description="OPERATING SYSTEMS" imgsrc="https://unionboard.smitghelani.xyz/prachiMam.jpg"/>
                     </Item>
                     <Item>
-                        <Facultycards title=" Mr.Priyank Bhojak" description=".NET TECHNOLOGY" imgsrc="http://unionboard.smitghelani.xyz/priyankSir.jpg"/>
+                        <Facultycards title=" Mr.Priyank Bhojak" description=".NET TECHNOLOGY" imgsrc="https://unionboard.smitghelani.xyz/priyankSir.jpg"/>
                     </Item>
                     <Item>Six</Item>
                     <Item>Seven</Item>

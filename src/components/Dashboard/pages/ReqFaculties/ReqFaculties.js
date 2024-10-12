@@ -21,7 +21,7 @@ const ReqFaculties = () => {
 		};
 		
 		axios
-			.put(`http://unionboard-backend.smitghelani.xyz/admin/verifyOneFaculty/${id}`, 
+			.put(`https://unionboard-backend.smitghelani.xyz/admin/verifyOneFaculty/${id}`, 
 			formData,
 			config
 			)
@@ -50,7 +50,7 @@ const ReqFaculties = () => {
               withCredentials: true
 		};
 		axios
-			.put(`http://unionboard-backend.smitghelani.xyz/admin/verifyOneFaculty/${id}`,
+			.put(`https://unionboard-backend.smitghelani.xyz/admin/verifyOneFaculty/${id}`,
 			formData,
 			config
 			)
@@ -70,7 +70,7 @@ const ReqFaculties = () => {
 	useEffect(() => {
 		//admin/getRequestedFaculties
 		axios
-			.get("http://unionboard-backend.smitghelani.xyz/admin/getRequestedFaculties",{
+			.get("https://unionboard-backend.smitghelani.xyz/admin/getRequestedFaculties",{
 				headers: {
 						   Accept: "application/json",
 						   "Content-Type": 'application/json',

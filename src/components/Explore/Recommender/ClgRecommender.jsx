@@ -31,7 +31,7 @@ const ClgRecommender = () => {
 				maxFee: maxfee,
 			}),
 		};
-		fetch("http://unionboard-backend.smitghelani.xyz/collegeRecommander", requestOptions)
+		fetch("https://unionboard-backend.smitghelani.xyz/collegeRecommander", requestOptions)
 			.then((response) => response.json())
 			.then((data) => setData(data.result));
 		setBranch(null);
@@ -46,15 +46,15 @@ const ClgRecommender = () => {
 		container.style.height = "100%";
 	};
 	useEffect(() => {
-		axios.get("http://unionboard-backend.smitghelani.xyz/getCityList").then((response) => {
+		axios.get("https://unionboard-backend.smitghelani.xyz/getCityList").then((response) => {
 			console.log(response.data.cities);
 			setCities(response.data.cities);
 		});
-		axios.get("http://unionboard-backend.smitghelani.xyz/getBranchList").then((response) => {
+		axios.get("https://unionboard-backend.smitghelani.xyz/getBranchList").then((response) => {
 			console.log(response.data.branches);
 			setBranches(response.data.branches);
 		});
-		axios.get("http://unionboard-backend.smitghelani.xyz/getCollegeList").then((response) => {
+		axios.get("https://unionboard-backend.smitghelani.xyz/getCollegeList").then((response) => {
 			setClgs(response.data.colleges);
 		});
 	}, []);

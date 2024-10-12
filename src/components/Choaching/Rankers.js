@@ -34,13 +34,13 @@ function Rankers (props) {
                     transitionMs={500}
                     >
                     <Item>
-                        <Rankercards title="Sneh Trivedi" designation="IT DEPT." description="Web Lead - IEEE (2020-21) || Event Organiser - IEEE (2020)" imgsrc="http://unionboard.smitghelani.xyz/snehPic.jpg" />
+                        <Rankercards title="Sneh Trivedi" designation="IT DEPT." description="Web Lead - IEEE (2020-21) || Event Organiser - IEEE (2020)" imgsrc="https://unionboard.smitghelani.xyz/snehPic.jpg" />
                     </Item>
                     <Item>
-                    <Rankercards title="Anuj Gajjar" designation="CP DEPT." description="Stood first in the all India robotics event" imgsrc="http://unionboard.smitghelani.xyz/anujPic.jpeg"/>
+                    <Rankercards title="Anuj Gajjar" designation="CP DEPT." description="Stood first in the all India robotics event" imgsrc="https://unionboard.smitghelani.xyz/anujPic.jpeg"/>
                     </Item>
                     <Item>
-                    <Rankercards title="Kalp Gohil" designation="EC DEPT." description="University Topper" imgsrc="http://unionboard.smitghelani.xyz/kalpPic.png"/>
+                    <Rankercards title="Kalp Gohil" designation="EC DEPT." description="University Topper" imgsrc="https://unionboard.smitghelani.xyz/kalpPic.png"/>
                     </Item>
                     <Item>Four</Item>
                     <Item>Five</Item>

@@ -152,7 +152,7 @@ export default function Upload() {
 
       try {
         coursePage = await axios({
-          url: "http://unionboard-backend.smitghelani.xyz/addCourseOverview",
+          url: "https://unionboard-backend.smitghelani.xyz/addCourseOverview",
           method: 'POST',
           Headers: {
               'content-Type': 'multipart/form-data',
@@ -201,7 +201,7 @@ export default function Upload() {
 
           try {
              response = await axios({
-              url: 'http://unionboard-backend.smitghelani.xyz/addSectionContent',
+              url: 'https://unionboard-backend.smitghelani.xyz/addSectionContent',
               method: 'POST',
               Headers: {
                   'content-Type': 'multipart/form-data',
@@ -251,7 +251,7 @@ export default function Upload() {
       var landingPage = undefined;
       try {
         landingPage = await axios({
-          url: 'http://unionboard-backend.smitghelani.xyz/addLandingPage',
+          url: 'https://unionboard-backend.smitghelani.xyz/addLandingPage',
           method: 'POST',
           Headers: {
               'content-Type': 'multipart/form-data',

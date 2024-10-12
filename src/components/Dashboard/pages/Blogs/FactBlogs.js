@@ -18,7 +18,7 @@ import MuiAlert from '@mui/material/Alert';
 const FactBlogs = () => {
   const [sIndex,setSindex] = useState(0);
   const [eIndex,setEindex] = useState(3);
-  const facultyPersonalBlogs = "http://unionboard-backend.smitghelani.xyz/faculty/getFacultyPersonalBlogs";
+  const facultyPersonalBlogs = "https://unionboard-backend.smitghelani.xyz/faculty/getFacultyPersonalBlogs";
   const [viewBlog, setViewBlog] = useState(true);
   const [BbtnText,setBbtnText] = useState("My Blogs");
   const [dltBlog,setDltBlog] = useState(false);
@@ -52,7 +52,7 @@ const FactBlogs = () => {
     };
     
      axios
-        .put(`http://unionboard-backend.smitghelani.xyz/faculty/blog/${blogID}`, formData, config)
+        .put(`https://unionboard-backend.smitghelani.xyz/faculty/blog/${blogID}`, formData, config)
         .then(async(res) => {
             setTitle('')
             setContent('')
@@ -83,7 +83,7 @@ const FactBlogs = () => {
   } else if(!viewBlog){ setBlogsArray([]); setBbtnText("My Blogs")}
   
   if(dltBlog){
-    const blogDltURL = `http://unionboard-backend.smitghelani.xyz/faculty/blog/${blogID}`;
+    const blogDltURL = `https://unionboard-backend.smitghelani.xyz/faculty/blog/${blogID}`;
     axios.delete(blogDltURL,{
         headers: {
                    Accept: "application/json",

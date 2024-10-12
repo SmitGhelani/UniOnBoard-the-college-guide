@@ -94,9 +94,9 @@ const Coachingdetails = (props) => {
 
           
             <div className='couponCard'>
-              <img className='cdInfoCouponGradient' src='http://unionboard.smitghelani.xyz/cdInfoCoupon.png' alt='Gradient img'/>
-              <img className='cdInfoCouponGradient2' src='http://unionboard.smitghelani.xyz/cdInfoCouponDesignBG.png' alt='Gradient img2'/>
-              <img className='cdInfoCouponLogo' src='http://unionboard.smitghelani.xyz/cdInfoCouponLogo.png' alt='Gradient img3'/>
+              <img className='cdInfoCouponGradient' src='https://unionboard.smitghelani.xyz/cdInfoCoupon.png' alt='Gradient img'/>
+              <img className='cdInfoCouponGradient2' src='https://unionboard.smitghelani.xyz/cdInfoCouponDesignBG.png' alt='Gradient img2'/>
+              <img className='cdInfoCouponLogo' src='https://unionboard.smitghelani.xyz/cdInfoCouponLogo.png' alt='Gradient img3'/>
               <p className='cdInfoCouponText1'>INPORTANT INFORMATION</p>
               <p className='cdInfoCouponText2'>Facilities:- {Ifacilities}</p>
               <p className='cdInfoCouponText3'>Email Id:- {Imail}</p>
@@ -107,7 +107,7 @@ const Coachingdetails = (props) => {
             
            
             {/* <div className='cdContact'>
-                <img className='cdContactImg' src='http://unionboard.smitghelani.xyz/elonmusk.jpg' alt='coaching contact' />
+                <img className='cdContactImg' src='https://unionboard.smitghelani.xyz/elonmusk.jpg' alt='coaching contact' />
                 <div className='cdContactText'>Contact Us for learning</div>
                 <div className='cdContactNumber1'>CALL US ANYTIME</div>
                 <div className='cdContactNumber2'>+92 666 888 0000</div>
@@ -291,23 +291,23 @@ export default Coachingdetails;
 
 
 //     <div className='couponCard'>
-//       <img className='cdInfoCouponGradient' src='http://unionboard.smitghelani.xyz/cdInfoCoupon.png' alt='Gradient img'/>
-//       <img className='cdInfoCouponGradient2' src='http://unionboard.smitghelani.xyz/cdInfoCouponDesignBG.png' alt='Gradient img2'/>
-//       <img className='cdInfoCouponLogo' src='http://unionboard.smitghelani.xyz/cdInfoCouponLogo.png' alt='Gradient img3'/>
+//       <img className='cdInfoCouponGradient' src='https://unionboard.smitghelani.xyz/cdInfoCoupon.png' alt='Gradient img'/>
+//       <img className='cdInfoCouponGradient2' src='https://unionboard.smitghelani.xyz/cdInfoCouponDesignBG.png' alt='Gradient img2'/>
+//       <img className='cdInfoCouponLogo' src='https://unionboard.smitghelani.xyz/cdInfoCouponLogo.png' alt='Gradient img3'/>
 //       <p className='cdInfoCouponText1'>20% OFF ON NDA BOOKS AND 10% OFF ON ADMISSION</p>
 //       <p className='cdInfoCouponText2'>By redeeming this offer you will get 20% discount on NDA materials and 10% off in CAVALIER admission. Grab Offers Now</p>
 //       <Button variant="secondary" className='cdInfoCouponBtn'>Redeem Offer</Button>
 //     </div>
 
 //     <div className='cdContact'>
-//         <img className='cdContactImg' src='http://unionboard.smitghelani.xyz/elonmusk.jpg' alt='coaching contact' />
+//         <img className='cdContactImg' src='https://unionboard.smitghelani.xyz/elonmusk.jpg' alt='coaching contact' />
 //         <div className='cdContactText'>Contact Us for learning</div>
 //         <div className='cdContactNumber1'>CALL US ANYTIME</div>
 //         <div className='cdContactNumber2'>+92 666 888 0000</div>
 //     </div>
 //   </Col>
 //   <Col sm={12} lg={8}>
-//       <img className='cdInfoTitleImg' src='http://unionboard.smitghelani.xyz/elonmusk.jpg' alt='Demo Img' />
+//       <img className='cdInfoTitleImg' src='https://unionboard.smitghelani.xyz/elonmusk.jpg' alt='Demo Img' />
 //       <p className='cdInfoWelcome'>
 //         WELCOME TO THE CAVALIER
 //       </p>

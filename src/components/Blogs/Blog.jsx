@@ -7,7 +7,7 @@
 
 //     // React.useCallback(() => {
 //     //     const apicall = () => {
-//     //         axios.get('http://unionboard-backend.smitghelani.xyz/getAllBlog').then((res) =>{
+//     //         axios.get('https://unionboard-backend.smitghelani.xyz/getAllBlog').then((res) =>{
 //     //             console.log(res);
 //     //         }).catch((err) => console.log(err))
 //     //     }

@@ -21,7 +21,7 @@ export default function UpdateCourse() {
   useEffect(()=>{
     try {
         axios(
-          `http://unionboard-backend.smitghelani.xyz/getPerticularCourse/${id}`,{
+          `https://unionboard-backend.smitghelani.xyz/getPerticularCourse/${id}`,{
           headers: {
               'content-Type': 'multipart/form-data',
           },
@@ -212,7 +212,7 @@ export default function UpdateCourse() {
 
       try {
         coursePage = await axios({
-          url: "http://unionboard-backend.smitghelani.xyz/updateCourseOverview",
+          url: "https://unionboard-backend.smitghelani.xyz/updateCourseOverview",
           method: 'POST',
           Headers: {
               'content-Type': 'multipart/form-data',
@@ -261,7 +261,7 @@ export default function UpdateCourse() {
 
           try {
              response = await axios({
-              url: 'http://unionboard-backend.smitghelani.xyz/updateSectionContent',
+              url: 'https://unionboard-backend.smitghelani.xyz/updateSectionContent',
               method: 'POST',
               Headers: {
                   'content-Type': 'multipart/form-data',
@@ -311,7 +311,7 @@ export default function UpdateCourse() {
       var landingPage = undefined;
       try {
         landingPage = await axios({
-          url: 'http://unionboard-backend.smitghelani.xyz/updateLandingPage',
+          url: 'https://unionboard-backend.smitghelani.xyz/updateLandingPage',
           method: 'POST',
           Headers: {
               'content-Type': 'multipart/form-data',

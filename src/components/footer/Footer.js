@@ -21,8 +21,8 @@ const Footer = () => {
                     <p className='footerHelpText'>Help</p>
                     <p className='footerContactusText'>ContactUs</p>
                     <p className='footerSocialLogo'>
-                        <img src='http://unionboard.smitghelani.xyz/facebookLogo1.png' alt='facebbokLogo'></img>
-                        <img src='http://unionboard.smitghelani.xyz/twitterLogo1.png' alt='twitterLogo' style={{paddingLeft : "10px"}}></img>
+                        <img src='https://unionboard.smitghelani.xyz/facebookLogo1.png' alt='facebbokLogo'></img>
+                        <img src='https://unionboard.smitghelani.xyz/twitterLogo1.png' alt='twitterLogo' style={{paddingLeft : "10px"}}></img>
                     </p>
                 </Col>
             </Row>

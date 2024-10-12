@@ -33,7 +33,7 @@ const Addreview = ({id}) => {
 		};
 
 			axios
-			.put(`http://unionboard-backend.smitghelani.xyz/review/${id}`, formData, config)
+			.put(`https://unionboard-backend.smitghelani.xyz/review/${id}`, formData, config)
 			.then(async(response) => {
 
 				setComment('') 

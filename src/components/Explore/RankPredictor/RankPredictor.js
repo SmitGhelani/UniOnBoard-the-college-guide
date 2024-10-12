@@ -24,11 +24,11 @@ const RankPredictor = () => {
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ gujcetPR: gujcetpr, sciencePR: sciencepr })
         };
-        fetch('http://unionboard-backend.smitghelani.xyz/calculateRank', requestOptions)
+        fetch('https://unionboard-backend.smitghelani.xyz/calculateRank', requestOptions)
             .then(response => response.json())
             .then(data => setRank(data.rank));
 		// axios
-		// 	.get("http://unionboard-backend.smitghelani.xyz/calculateRank", body, config)
+		// 	.get("https://unionboard-backend.smitghelani.xyz/calculateRank", body, config)
 		// 	.then(async(res) => {
 		// 	console.log(res);
 

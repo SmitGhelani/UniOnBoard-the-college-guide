@@ -30,7 +30,7 @@ function ResetPassword() {
 
     const handleResetPass = async () => {
         try {
-            const res = await axios.post(`http://unionboard-backend.smitghelani.xyz/resetPassword/${token}`, { password, conf_password }, {
+            const res = await axios.post(`https://unionboard-backend.smitghelani.xyz/resetPassword/${token}`, { password, conf_password }, {
                 headers: { Authorization: token }
             })
 

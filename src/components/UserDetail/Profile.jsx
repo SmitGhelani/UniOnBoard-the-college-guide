@@ -10,10 +10,10 @@
 
 // function Profile(){
 
-//     const dashboardURL = "http://unionboard-backend.smitghelani.xyz/dashboard";
+//     const dashboardURL = "https://unionboard-backend.smitghelani.xyz/dashboard";
 //     // email id:- kalpgohil9@gmail.com || Password :- 123456
-//     const facultyPersonalBlogs = "http://unionboard-backend.smitghelani.xyz/faculty/getFacultyPersonalBlogs";
-//     const changePassword = "http://unionboard-backend.smitghelani.xyz/password/update";
+//     const facultyPersonalBlogs = "https://unionboard-backend.smitghelani.xyz/faculty/getFacultyPersonalBlogs";
+//     const changePassword = "https://unionboard-backend.smitghelani.xyz/password/update";
 
 //     const[userData, setUserData] = React.useState('');
 //     const [blogBtn, setBlogBtn] = useState("none");
@@ -43,7 +43,7 @@
 
 //     // Faculty 1 password:- 123456 => abc123
 //     // const dashboardApiCall = React.useCallback( async () => {
-//     //     const res = await fetch("http://unionboard-backend.smitghelani.xyz/userdashboard", {
+//     //     const res = await fetch("https://unionboard-backend.smitghelani.xyz/userdashboard", {
 //     //       method: "GET",
 //     //       headers: {
 //     //         Accept: "application/json",
@@ -276,10 +276,10 @@ function TabPanel(props) {
 
 function Profile(){
 
-    const dashboardURL = "http://unionboard-backend.smitghelani.xyz/dashboard";
+    const dashboardURL = "https://unionboard-backend.smitghelani.xyz/dashboard";
     // email id:- kalpgohil9@gmail.com || Password :- 123456
-    const facultyPersonalBlogs = "http://unionboard-backend.smitghelani.xyz/faculty/getFacultyPersonalBlogs";
-    const changePassword = "http://unionboard-backend.smitghelani.xyz/updatePassword";
+    const facultyPersonalBlogs = "https://unionboard-backend.smitghelani.xyz/faculty/getFacultyPersonalBlogs";
+    const changePassword = "https://unionboard-backend.smitghelani.xyz/updatePassword";
 
     const[userData, setUserData] = React.useState('');
     const [blogBtn, setBlogBtn] = useState("none");

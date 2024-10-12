@@ -33,7 +33,7 @@ export default function Course({courseId,
 
         try {
             const response = await axios({
-              url: `http://unionboard-backend.smitghelani.xyz/deleteFacultyCourse/${courseId}`,
+              url: `https://unionboard-backend.smitghelani.xyz/deleteFacultyCourse/${courseId}`,
               method: 'POST',
               Headers: {
                   'content-Type': 'multipart/form-data',

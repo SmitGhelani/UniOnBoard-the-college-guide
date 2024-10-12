@@ -34,7 +34,7 @@ const Login = () => {
     const handleSubmit = async e => {
         e.preventDefault()
         try {
-            const res = await axios.post('http://unionboard-backend.smitghelani.xyz/login',
+            const res = await axios.post('https://unionboard-backend.smitghelani.xyz/login',
                 { email, password },
                 {
                     headers: {

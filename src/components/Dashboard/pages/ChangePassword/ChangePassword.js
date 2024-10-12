@@ -16,7 +16,7 @@ const ChangePassword = () => {
       };
       const  handleSubmit = () =>{
           try{
-        axios.post("http://unionboard-backend.smitghelani.xyz/updatePassword",
+        axios.post("https://unionboard-backend.smitghelani.xyz/updatePassword",
         formValues,{
             headers: {
                 Accept: "application/json",

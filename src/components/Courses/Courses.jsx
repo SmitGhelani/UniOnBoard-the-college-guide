@@ -15,7 +15,7 @@ export default function Courses() {
 
   useEffect(()=>{
     axios.get(
-        "http://unionboard-backend.smitghelani.xyz/getCourses"
+        "https://unionboard-backend.smitghelani.xyz/getCourses"
     ).then((response)=>{
         setCourseDataList(response.data.allCourse);
 

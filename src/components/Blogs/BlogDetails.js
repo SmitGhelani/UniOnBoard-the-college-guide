@@ -40,7 +40,7 @@ const BlogDetails = (props) => {
 	}, [peticulerBlogURL]);
 
 	//   const perticularBlogApiCall = React.useCallback( async () => {
-	//     const url = `http://unionboard-backend.smitghelani.xyz/getOneBlog/${authorid}`;
+	//     const url = `https://unionboard-backend.smitghelani.xyz/getOneBlog/${authorid}`;
 	//     const res = await axios(url, {
 	//       method: "GET",
 	//       headers: {

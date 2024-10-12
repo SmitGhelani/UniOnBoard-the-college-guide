@@ -62,7 +62,7 @@ const Navbar = (props) => {
 
   const logoutCall = async () => {
     try {
-      const res = await fetch("http://unionboard-backend.smitghelani.xyz/logout", {
+      const res = await fetch("https://unionboard-backend.smitghelani.xyz/logout", {
         method: "GET",
         headers: {
           Accept: "application/json",

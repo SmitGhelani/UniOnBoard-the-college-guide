@@ -41,7 +41,7 @@ function Register() {
 		try {
 			
 	
-			const res = await axios.post("http://unionboard-backend.smitghelani.xyz/signup", {
+			const res = await axios.post("https://unionboard-backend.smitghelani.xyz/signup", {
 				name,
 				email,
 				password,
@@ -94,7 +94,7 @@ function Register() {
 			};
 			
 			 axios
-				.post("http://unionboard-backend.smitghelani.xyz/signupFaculty", formData, config)
+				.post("https://unionboard-backend.smitghelani.xyz/signupFaculty", formData, config)
 				.then(async(res) => {
 				
 					console.log(res);
@@ -108,7 +108,7 @@ function Register() {
 			
 		
 	
-	// 		const res = await axios.post("http://unionboard-backend.smitghelani.xyz/signupFaculty", {
+	// 		const res = await axios.post("https://unionboard-backend.smitghelani.xyz/signupFaculty", {
 	// 			name,
 	// 			email,
 	// 			password,

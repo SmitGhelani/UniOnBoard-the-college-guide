@@ -10,7 +10,7 @@ import './SingleCourse.css';
 export default function SingleCourse() {
     
     const {id} = useParams();
-    const apiURL = `http://unionboard-backend.smitghelani.xyz/getCourseContent/${id}`
+    const apiURL = `https://unionboard-backend.smitghelani.xyz/getCourseContent/${id}`
     const [sectionData, setSectionData] = useState([])
     const [courseData, setCourseData] = useState({})
     const [mainPanelSrc,setMainPanelSrc] = useState("");
@@ -104,7 +104,7 @@ export default function SingleCourse() {
     }
 
     useEffect(()=>{
-        axios.get(`http://unionboard-backend.smitghelani.xyz/getCourseContent/${id}`,{
+        axios.get(`https://unionboard-backend.smitghelani.xyz/getCourseContent/${id}`,{
             headers: {
                        Accept: "application/json",
                        "Content-Type": 'application/json',

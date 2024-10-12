@@ -3,7 +3,7 @@
 // import axios from "axios";
 // import "./DashboardHome.css";
 // const DashboardHome = () => {
-//   const dashboardURL = "http://unionboard-backend.smitghelani.xyz/dashboard";
+//   const dashboardURL = "https://unionboard-backend.smitghelani.xyz/dashboard";
 //   const[userData, setUserData] = React.useState({});
 //   const[dp,setDp]=React.useState("")
 //   useEffect(() => {
@@ -153,7 +153,7 @@ import { useEffect } from "react";
 import axios from "axios";
 import "./DashboardHome.css";
 const DashboardHome = () => {
-  const dashboardURL = "http://unionboard-backend.smitghelani.xyz/dashboard";
+  const dashboardURL = "https://unionboard-backend.smitghelani.xyz/dashboard";
   const[userData, setUserData] = React.useState({});
   const[dp,setDp]=React.useState("")
   useEffect(() => {

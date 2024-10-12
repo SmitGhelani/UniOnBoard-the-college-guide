@@ -58,7 +58,7 @@ const CoachingListingCard = (props) => {
                             <Row  > 
                             
                                 <Col sm={1} className='LocationLogoCol'>
-                                    <img src='http://unionboard.smitghelani.xyz/location.png' alt='LocationLogo' className='instituteLocationImg'/>
+                                    <img src='https://unionboard.smitghelani.xyz/location.png' alt='LocationLogo' className='instituteLocationImg'/>
                                 </Col>
                                 <Col className='iAddress' sm={11}>
                                     {/* Opp. Shashtri Ground, Mota Bazaar, Vallabh Vidyanagar, Anand - 388120. */}
@@ -67,7 +67,7 @@ const CoachingListingCard = (props) => {
                             </Row>
                             <Row>
                                 <Col sm={1} className='LocationLogoCol'>
-                                    <img src='http://unionboard.smitghelani.xyz/discount.png' alt='LocationLogo' className='instituteLocationImg'/>
+                                    <img src='https://unionboard.smitghelani.xyz/discount.png' alt='LocationLogo' className='instituteLocationImg'/>
                                 </Col>
                                 <Col className='iAddress' sm={11}>
                                     {/* Offer for coaching admision : 20% */}
@@ -76,7 +76,7 @@ const CoachingListingCard = (props) => {
                             </Row>
                             <Row>
                                 <Col sm={1} className='LocationLogoCol'>
-                                    <img src='http://unionboard.smitghelani.xyz/rupee.png' alt='LocationLogo' className='instituteLocationImg'/>
+                                    <img src='https://unionboard.smitghelani.xyz/rupee.png' alt='LocationLogo' className='instituteLocationImg'/>
                                 </Col>
                                 <Col className='iAddress' sm={11}>
                                     {/* Needed coins to redeem offer : 560 */}

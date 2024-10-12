@@ -14,7 +14,7 @@ const Feature = () => {
   const [toggle,setToggle] = useState(false);
 
   const allcityApiCall = React.useCallback( async () => {
-    const res = await fetch("http://unionboard-backend.smitghelani.xyz/getHomeInst", {
+    const res = await fetch("https://unionboard-backend.smitghelani.xyz/getHomeInst", {
       method: "GET",
       headers: {
         Accept: "application/json",

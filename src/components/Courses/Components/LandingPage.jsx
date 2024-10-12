@@ -20,7 +20,7 @@ export default function LandingPage() {
     const [isPaymentDone, setIsPaymentDone] = useState(false)
 
   useEffect(() =>{
-      axios.get(`http://unionboard-backend.smitghelani.xyz/getLandingPageData/${id}`,{
+      axios.get(`https://unionboard-backend.smitghelani.xyz/getLandingPageData/${id}`,{
         headers: {
                    Accept: "application/json",
                    "Content-Type": 'application/json',
@@ -41,7 +41,7 @@ export default function LandingPage() {
           console.log(error);
       })
 
-      axios.get(`http://unionboard-backend.smitghelani.xyz/getPurchases/${id}`,{
+      axios.get(`https://unionboard-backend.smitghelani.xyz/getPurchases/${id}`,{
         headers: {
                   Accept: "application/json",
                   "Content-Type": 'application/json',
@@ -73,7 +73,7 @@ export default function LandingPage() {
       fd.append("notes",{courseId:courseData._id});
 
       const resultPayment =  await axios({
-        url: "http://unionboard-backend.smitghelani.xyz/placeOrder",
+        url: "https://unionboard-backend.smitghelani.xyz/placeOrder",
         method: 'POST',
         Headers: {
             'content-Type': 'multipart/form-data',
@@ -99,7 +99,7 @@ export default function LandingPage() {
             console.log(response)
             try {
               const purchase = await axios({
-                url:`http://unionboard-backend.smitghelani.xyz/addPurchageData/${id}`,
+                url:`https://unionboard-backend.smitghelani.xyz/addPurchageData/${id}`,
                 method:"POST",
                 Headers:{
                   'content-Type':"multipart/form-data"

@@ -48,7 +48,7 @@ function Login(){
         formData.append("email", email);
         formData.append("password", password);
   
-        axios.post('http://unionboard-backend.smitghelani.xyz/login', formData, {
+        axios.post('https://unionboard-backend.smitghelani.xyz/login', formData, {
             headers: {
                 'Content-Type': 'application/json'
             },
