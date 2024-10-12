@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 115px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.appbar-main {
+  background: #fff !important;
+  color: #000 !important;
+}
+.logo {
+  font-size: 22px;
+}
+.MuiTypography-root {
+  font-weight: 600 !important;
+}
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  /* width: 75%; */
+}
+
+.contact {
+  text-decoration: none;
+  font-size: 18px;
+  padding: 15px 25px;
+
+  cursor: pointer;
+  color: #000 !important;
+  font-family: poppins;
+  font-weight: 300;
+  text-transform: none;
+  margin-left: 5px;
+  
+}
+.contact:hover {
+   
+        transform: translateY(-25px);
+        box-shadow: 0 0 20px 10px rgba(246, 246, 246, 0.975);
+        cursor: pointer;
+        /* border-radius: 5px; */
+        align-items: center;
+        text-decoration: none;
+        /* border-radius: 10px; */
+        border-bottom: 5px solid black;
+}
+.Avatar-menu {
+  text-transform: none;
+  color: black;
+}
+.Avatar-menu:hover {
+  text-transform: none;
+  color: black;
+  text-decoration: none;
+}
+.nav-item {
+  padding: 1px;
+}
+.Signup {
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 40px 10px;
+  cursor: pointer;
+  color: #1ab99d;
+  font-family: poppins;
+  font-weight: 300;
+}
+.Signup1 {
+  display: none;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 40px 10px;
+  cursor: pointer;
+  color: #1ab99d;
+  font-family: poppins;
+  font-weight: 300;
+}
+.signin {
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 40px 10px;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  font-family: poppins;
+  font-weight: 300;
+  border: 1px solid black;
+  border-radius: 5px;
+  background: #1ab99d;
+}
+.signin1 {
+  display: none;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 40px 10px;
+  cursor: pointer;
+  color: #fff;
+  font-family: poppins;
+  font-weight: 300;
+  border: 1px solid black;
+  border-radius: 5px;
+  background: #1ab99d;
+}
+.mobile-menu-icon {
+  display: none;
+}
+
+
+@media only screen and (max-width: 900px) {
+  .navbar {
+    height: 80px;
+    border-radius: 0px;
+  }
+  .logo {
+    display: flex;
+    position: absolute;
+    top: 15px;
+    left: 35px;
+  }
+
+  .MuiTypography-root {
+    font-weight: 600 !important;
+  }
+  .nav-links {
+    display: none;
+  }
+  .nav-links-mobile {
+    position: absolute;
+    display: block;
+    list-style: none;
+    padding-left: 5%;
+    top: 75px;
+    transition: all 0.5s ease-out;
+    width: 100%;
+    background: #1ab99d;
+  }
+  .home,
+  .coaching,
+  .course,
+  .blog,
+  .contact {
+    text-align: left;
+    
+    width: 100%;
+    transition: all 0, 5s ease;
+  }
+  .signin1 {
+    /* display: none; */
+    border: 0px;
+    /* display: contents; */
+    display: inline;
+  }
+  .Signup1 {
+    display: inline;
+    /* display: none; */
+  }
+  .mobile-menu-icon {
+    display: block;
+    position: absolute;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    top: 15px;
+    right: 25px;
+  }
+}

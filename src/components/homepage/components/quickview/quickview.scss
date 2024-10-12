@@ -1,0 +1,238 @@
+.quickviewbutton{
+    font-size: 22px;
+   cursor: pointer;
+    color:#000!important;
+    font-weight: 300;
+    border: transparent;
+    border-radius: 5px;
+    background-color:#fff!important;
+    font-weight:bold;
+    text-decoration: none;
+    margin: 20px;
+   padding:10px;
+   margin-right: 5px;
+}  
+
+
+.buttonclick{
+   display: flex;
+   margin:0!important;
+   padding:0!important;
+   justify-content: center;
+   align-items:center;
+   
+}
+.sc-gsDKAQ{
+  
+   
+   
+}
+
+.sc-bdvvtL {
+   
+}
+.previous {
+   background-color:#1AB99D42;
+   color: white;
+   
+ }
+ 
+ .buttonclick > a {
+   text-decoration: none;
+   display: inline-block;
+   padding: 8px 16px;
+ }
+ 
+ .buttonclick > a:hover {
+   background-color: #1AB99D42;
+   color: white;
+ }
+.round {
+   border-radius: 50%;
+ }
+
+ .next {
+   background-color: #1AB99D42;
+   color: white;
+   position:relative;
+ }
+ 
+.quickviewbutton:hover{
+   
+   background-color:#1AB99D42!important;
+   cursor: pointer;
+   border-radius: 10px;
+   align-items: center;
+  
+}
+
+.viewlist{
+   display: flex;
+   justify-content: start;
+   align-items: center;
+   padding: 10px;
+   margin-right: 10px;
+   margin-left: 10px;
+}
+
+.viewimg{
+ 
+    height: 9vh;
+    
+    background-color: #00AF92; 
+    -moz-border-radius: 270px; 
+    -webkit-border-radius:200px; 
+    justify-content: left;
+   padding: 10px;
+ }
+.name{
+   font-weight: bold;
+}
+
+.viewleftside{
+   width: 100%;
+   align-items: center;
+   display:flex ;
+   justify-content: center;
+   
+}
+.viewrightside{
+   width: 100%;
+   align-items: center;
+   display: flex;
+   justify-content: center;
+  
+}
+@media screen and (max-width:1400px){
+   .viewimg{
+ 
+      height: 8vh;
+      
+      background-color: #00AF92; 
+      -moz-border-radius: 270px; 
+      -webkit-border-radius:200px; 
+      justify-content: left;
+     padding: 10px;
+   }
+}
+@media screen and (max-width:1200px){
+   
+.viewimg{
+ 
+   height: 6vh;
+   
+   background-color: #00AF92; 
+   -moz-border-radius: 270px; 
+   -webkit-border-radius:200px; 
+   justify-content: left;
+  padding: 10px;
+}
+
+}
+@media screen and (max-width:500px){
+
+   .quickviewbutton{
+      font-size: 8px;
+     cursor: pointer;
+      color:#000!important;
+      font-weight: 300;
+      border: transparent;
+      border-radius: 5px;
+      background-color:#ebebeb!important;
+      font-weight:bold;
+      text-decoration: none;
+      margin: 5px;
+      
+     
+    
+  }
+
+  .motiveh1{
+     font-size: 20px;
+  }
+  .buttonclick{
+     display: flex;
+     // <div className="d-flex justify-content-center align-items-center pt-2 mt-2 pb-4 mb-4 ml-4">
+     justify-content: center;
+     align-items:center;
+     padding-top: 20px;
+     padding-bottom: 20px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     margin-left: auto;
+     margin-right: auto;
+  }
+  .previous {
+     background-color:  rgb(109, 203, 240);
+     color: white;
+   }
+   
+   .buttonclick > a {
+     text-decoration: none;
+     display: inline-block;
+     padding: 5px 14px;
+   }
+   
+   .buttonclick > a:hover {
+     background-color: rgb(108, 178, 235);
+     color: white;
+   }
+  .round {
+     border-radius: 50%;
+   }
+  
+   .next {
+     background-color: rgb(109, 203, 240);
+     color: white;
+     
+   }
+   
+  .quickviewbutton:hover{
+     
+     background-color:#6dfc5b!important;
+     cursor: pointer;
+     border-radius: 10px;
+     align-items: center;
+    
+  }
+  
+  .viewlist{
+     display: flex;
+     justify-content: start;
+     align-items: center;
+     padding: 10px;
+     margin-right: 10px;
+     margin-left: 10px;
+  }
+  
+  .viewimg{
+   
+      height: 5vh;
+      
+      background-color: #00AF92; 
+      -moz-border-radius: 270px; 
+      -webkit-border-radius:200px; 
+      justify-content: left;
+     padding: 10px;
+   }
+  .name{
+     font-weight: bold;
+     font-size: 12px;
+  }
+  
+  .viewleftside{
+     width: 100%;
+     align-items: center;
+     display:flex ;
+     justify-content: center;
+     
+  }
+  .viewrightside{
+     width: 100%;
+     align-items: center;
+     display: flex;
+     justify-content: center;
+    
+  }
+
+}

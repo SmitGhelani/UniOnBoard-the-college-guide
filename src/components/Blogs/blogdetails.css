@@ -1,0 +1,69 @@
+.blogDetContainer{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.blogImg{
+    width:100%;
+    height: auto;
+}
+/* .blogImgCol{
+    height: 500px;
+} */
+.pBlogFirstLetter{
+    font-weight: 700;
+    font-size: 48px;
+}
+.blurContent{
+    opacity: 70%;
+    font-size: 22px;
+}
+.remainingContent{
+    font-size: 20px;
+    text-justify:auto;
+}
+.pBlogTitle{
+    padding-top: 25px;
+    text-align: center;
+    font-size: 48px;
+}
+.hrDivider{
+    border-top: 5px solid #1AB99D;
+}
+.reviewTitle{
+    font-size: 24px;
+}
+.reviewCard{
+    border: 2px solid #1AB99D;
+    border-radius: 15px;
+    padding: 20px;
+    text-align:center;
+    margin: 15px 0px;
+}
+.nameOfReviewer{
+    font-size: 24px;
+    font-weight: 500;
+}  
+.ratingOfReviewer{
+    font-size: 20px;
+    font-weight: 500;
+}
+.reviewOfReviewer{
+    font-size: 18px;
+    text-align: left;
+    opacity: 70%;
+}
+
+@media only screen and (max-width: 415px){
+    .pBlogTitle{
+        font-size: 32px;
+    }
+    .blurContent{
+        font-size: 20px;
+    }
+    .remainingContent{
+        font-size: 18px;
+    }
+    .reviewCard{
+        text-align: left;
+    }
+}

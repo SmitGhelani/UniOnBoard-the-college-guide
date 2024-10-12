@@ -1,0 +1,456 @@
+.motiveh1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.motivep{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    text-align: center;
+   
+    color: #000000;
+    opacity:1;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: 200px;
+}
+
+.motiveimg{ 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 38vh;
+    text-align: center;
+    opacity: 1;
+    margin-left: 200px;
+    margin-right: auto;
+    padding: auto;
+    
+}
+
+.h3heading{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+
+.wrapper {
+  width: 350px;
+  height: 200px;
+  border-bottom-left-radius: 510px;
+  border-bottom-right-radius: 510px;
+  transform: rotate(270deg); /* Equal to rotateZ(45deg) */
+  background-color: pink;
+  background: #00AF92;
+  opacity: 0.1;
+ position:absolute;
+ display: flex;
+ justify-content: left;
+ align-items: left;
+}
+
+.motivesearch{
+
+    height: 10vh;
+   
+    background-color:rgba(0,0,255,0.3);
+    border:3px solid #556EE6;
+    color: blue;
+    border-radius: 50px;
+    display:flex  0 0 33.33%;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 15px;
+    
+   
+   
+}
+
+.motiveoffer{
+    height: 10vh;
+    
+    background-color:#F78FB326;
+    border: 3px solid #F78FB3;
+    border-radius: 50px;
+    box-shadow: 0px 10px 30px #F78FB31A;
+    display:flex  0 0 33.33%;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 15px;
+}
+.imgdiv{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.motivecoin{
+    height: 10vh;
+    
+    
+    background-color:#d0b4e9 ;
+    border:3px solid #AD52FF;
+    border-radius: 50px;
+    display:flex  0 0 33.33%;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 15px;
+}
+
+.motivemain{
+    display: flex;
+    justify-content: space-around;
+    
+    
+
+}
+@media screen and (max-width:1200px){
+    .motiveimg{ 
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        height: 30vh;
+        text-align: center;
+        opacity: 1;
+        margin-left:auto;
+        margin-right: 20px;
+        padding-top: 10px;
+        margin-top: 20px ;
+        padding: auto;
+        
+    }
+
+    .motivep{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        text-align: center;
+        letter-spacing: 1px;
+        color: #000000;
+        opacity:1;
+        text-align: justify;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .h3heading{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        
+        margin-right: auto;
+        margin-left: auto;
+        font-size: 18px;
+    }
+
+    
+.motivesearch{
+
+    height: 8vh;
+   
+    background-color:rgba(0,0,255,0.3);
+    border:3px solid #556EE6;
+    color: blue;
+    border-radius: 50px;
+    display:flex  0 0 33.33%;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 15px;
+    
+   
+   
+}
+
+.motiveoffer{
+    height: 8vh;
+    
+    background-color:#F78FB326;
+    border: 3px solid #F78FB3;
+    border-radius: 50px;
+    box-shadow: 0px 10px 30px #F78FB31A;
+    display:flex  0 0 33.33%;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 15px;
+}
+
+.motivecoin{
+    height: 8vh;
+    
+    
+    background-color:#d0b4e9 ;
+    border:3px solid #AD52FF;
+    border-radius: 50px;
+    display:flex  0 0 33.33%;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 15px;
+}
+}
+
+@media screen and (max-width:992px){
+
+    .motiveimg{ 
+        display: flex;
+        justify-content: start;
+        align-items: left;
+        width: auto;
+        height: 28vh;
+        opacity: 1;
+        
+    }
+    .motivep{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        text-align: center;
+       
+        color: #000000;
+        opacity:1.3;
+        text-align: justify;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .colsmall {
+        width: 50%!important;
+
+   }
+   
+.motivesearch{
+    height: 10vh;
+    background-color:rgba(0,0,255,0.3);
+    border:3px solid #556EE6;
+    color: blue;
+    border-radius: 50px;
+    display:flex  0 0 33.33%;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 15px;
+}
+
+.motiveoffer{
+    height:10vh;
+    background-color:#F78FB326;
+    border: 3px solid #F78FB3;
+    border-radius: 50px;
+    box-shadow: 0px 10px 30px #F78FB31A;
+    display:flex  0 0 33.33%;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 15px;
+}
+
+.motivecoin{
+    height: 10vh;
+    background-color:#d0b4e9 ;
+    border:3px solid #AD52FF;
+    border-radius: 50px;
+    display:flex  0 0 33.33%;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 15px;
+}
+.h3heading{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 15px;
+}
+   
+}
+/* 
+@media screen and (max-width:1340px){
+    .motiveimg{ 
+        display: flex;
+        justify-content: start;
+        align-items: left;
+        width: auto;
+        height:34vh;
+        opacity: 1;
+        margin-left: 50px!important;
+    }
+    .motivep{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        text-align: center;
+        
+        color: #000000;
+        opacity:2;
+        text-align: justify;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+} */
+@media screen and (max-width:770px){
+
+    .motiveimg{ 
+        display: flex;
+        justify-content: start;
+        align-items: left;
+        width: auto;
+        height:21vh;
+        opacity: 1;
+        margin-left: 50px!important;
+    }
+    .motivep{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+        text-align: center;
+        
+        color: #000000;
+        opacity:2;
+        text-align: justify;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .colsmall {
+        width: 50%!important;
+
+   }
+   .h3heading{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 15px;
+}
+
+}
+@media screen and (max-width:500px){
+
+    .motiveimg{ 
+        display: flex;
+        justify-content: start;
+        align-items: left;
+        width: auto;
+        height: 15vh;
+        opacity: 1;
+        
+        margin-left: 50px!important;
+        
+    }
+    .motivep{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 8px;
+        color: #000000;
+        opacity:3;
+        text-align: justify;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .colsmall {
+        width: 50%!important;
+
+   }
+   .h3heading{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 12px;
+}
+
+
+
+.wrapper {
+  width: 100px;
+  height: 50px;
+  border-bottom-left-radius: 510px;
+  border-bottom-right-radius: 510px;
+  transform: rotate(270deg); /* Equal to rotateZ(45deg) */
+ 
+  background: #00AF92;
+  opacity: 0.1;
+ position:absolute;
+ display: flex;
+ justify-content: left;
+ align-items: left;
+
+}
+
+.motivesearch{
+
+    height: 8vh;
+   
+    background-color:rgba(0,0,255,0.3);
+    border:3px solid #556EE6;
+    color: blue;
+    border-radius: 50px;
+    display:flex  0 0 33.33%;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 15px;
+    
+   
+   
+}
+
+.motiveoffer{
+    height: 8vh;
+    
+    background-color:#F78FB326;
+    border: 3px solid #F78FB3;
+    border-radius: 50px;
+    box-shadow: 0px 10px 30px #F78FB31A;
+    display:flex  0 0 33.33%;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 15px;
+}
+
+.motivecoin{
+    height: 8vh;
+    
+    
+    background-color:#d0b4e9 ;
+    border:3px solid #AD52FF;
+    border-radius: 50px;
+    display:flex  0 0 33.33%;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 15px;
+}
+
+
+
+}

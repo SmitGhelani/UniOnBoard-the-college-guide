@@ -1,0 +1,20 @@
+  .login_page{
+    max-width: 1200px;
+    width: 100%;
+    min-height: auto;
+    overflow: hidden;
+  }
+
+  login_page>a{
+    text-decoration: none;
+  }
+  login_page>ul{
+    list-style: none;
+  }
+  login_page>button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  

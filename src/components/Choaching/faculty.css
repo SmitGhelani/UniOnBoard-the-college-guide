@@ -1,0 +1,40 @@
+.Facultyheading{
+    text-align: center;
+    margin-top: 61px;
+}
+.facultyCard{
+    width: 351px;
+    height: 347px;
+    border-radius: 15px;
+}
+.facultyCardTitle{
+    font-size: 32px;
+    font: normal normal 600 23px/34px Poppins;
+    letter-spacing: 0.23px;
+    color: #142F64;
+    opacity: 1;
+}
+.facultyCardText{
+    font: normal normal medium 18px/27px Poppins;
+    letter-spacing: 0.18px;
+    color: honeydew;
+    /* color: #142F64; */
+    opacity: 0.52;
+    font-size: 18px;
+    margin-top: 306px;
+}
+.facultyCardBody{
+    margin-bottom: 300px;
+    border-radius: 5px;
+    
+}
+
+
+@media only screen and (max-width: 415px){
+    .facultyCardText{
+        opacity: 0.70;
+        font-size: 14px;
+        margin-top: 175px;
+        
+    }
+}

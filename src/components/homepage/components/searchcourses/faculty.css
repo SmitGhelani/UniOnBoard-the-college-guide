@@ -1,0 +1,47 @@
+.Faheading{
+    text-align: center;
+   
+}
+.facultyCardd
+{
+    width: 351px;
+    height: 347px;
+    
+    
+}
+.switchh{
+    background: #00AF9233 0% 0% no-repeat padding-box;
+
+}
+.imgcard{
+    height: 20vh;
+}
+.facultyCardTitle{
+    font-size: 20px;
+    
+    letter-spacing: 0.23px;
+    color: #142F64;
+    opacity: 1;
+}
+.facultyCardTextt{
+    
+    
+    letter-spacing: 0.18px;
+    color: black;
+    /* color: #142F64; */
+    opacity: 0.52;
+    font-size: 18px;
+   
+   
+}
+.facultyCardBodyy{
+    
+    border-radius: 5px;
+    
+}
+
+@media screen and (max-width:500px){
+     .css-1ecbi3m{
+         font-size:10px!important;
+     }
+}

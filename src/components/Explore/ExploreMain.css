@@ -1,0 +1,85 @@
+.explore{
+    height: 100vh;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.explorecard{
+    display: flexbox;
+    margin-top: 100px;
+    border-radius: 20px;
+    background: linear-gradient(320deg, #b082e9, #5cedc7, #f8c6ff, #95b5ff);
+    background-size: 800% 800%;
+    -webkit-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+    margin-bottom: 100px;
+    width:24vw;
+    height: 47vh;
+    padding: 10px;
+    justify-content: center;
+    transition: width 2s;
+    margin-inline: 10px;
+}
+.explorecard2{
+    display: flexbox;
+    margin-top: 60px;
+    border-radius: 20px;
+    background: linear-gradient(320deg,#6f99fc,#33f9c4, #913bf9, #e83cff );
+    background-size: 800% 800%;
+    -webkit-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+    margin-bottom: 100px;
+    width:27vw;
+    height: 55vh;
+    padding: 10px;
+    justify-content: center;
+    transition: width 2s;
+    margin-inline: 30px;
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 0%}
+    50%{background-position:93% 100%}
+    100%{background-position:0% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 0%}
+    50%{background-position:93% 100%}
+    100%{background-position:0% 0%}
+}
+.explorecard:hover{
+    transition-delay: 0.1s;
+    box-shadow:  14px 14px 28px #e3e3e3,
+             -14px -14px 28px #ffffff;
+    width: 27vw;
+}
+.explorecard2:hover{
+    transition-delay: 0.1s;
+    box-shadow:  14px 14px 28px #e3e3e3,
+             -14px -14px 28px #ffffff;
+    width: 33vw;
+}
+.exploreheader{
+    display: flex; 
+    justify-content: center;
+    transition-delay: 0.1s;
+    padding-top: 30px;
+    padding-inline: 20px;
+}
+.exploreheader:hover{
+    transition-delay: 0.1s;
+    transition-timing-function: calc();
+    font-size: 40px;
+}
+.explorecontent{
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    width: 20vw;
+    justify-self: center;
+    align-self: center;
+}

@@ -1,0 +1,113 @@
+.MainBlgLstCardDiv {
+	display: inline-block;
+}
+.blogTitle {
+	text-align: center;
+	padding-top: 25px;
+	padding-inline: 10px;
+	padding-bottom: 15px;
+	font-weight: 600;
+}
+.BlgLstContainer {
+	margin-top: 80px;
+	margin-bottom: 30px;
+	transition: all 0.2s ease-in-out;
+}
+.addblogbtn{
+	background: rgb(255, 255, 255);
+	padding: 10px 25px;
+	color: rgb(0, 0, 0);
+	border-radius: 10px;
+	margin-top: 20px;
+	justify-content: center;
+	border: 1px solid #444;
+}
+.addblogbtn:hover {
+	transform: scale(1.01);
+	padding: 10px 25px;
+	color: rgb(0, 0, 0);
+	border-radius: 10px;
+	margin-top: 20px;
+	border-bottom: 4px solid #444;
+	/* float: right; */
+	cursor: pointer;
+	align-items: center;
+	text-decoration: none;
+	border-radius: 10px;
+}
+.BlgLstCardDiv {
+	width: 340px;
+	height: auto;
+	/* box-shadow: 0px 0px 15px rgb(173, 173, 173); */
+	/* border-radius: 5px; */
+	border-radius: 37px;
+	background: #ffffff;
+	box-shadow: 20px 20px 55px #ebebeb, -20px -20px 55px #ffffff;
+	align-content: center;
+}
+.BlgLstCardDiv:hover {
+	background: #ffffff;
+	box-shadow: -20px -20px 55px #ebebeb, 20px 20px 55px #ffffff;
+	border-bottom: 6px solid #444;
+
+}
+.blogImg {
+	object-fit:cover;
+}
+.blogContent {
+	opacity: 70%;
+}
+.ratingRow {
+	position: relative;
+	bottom: 0;
+}
+.hr {
+	display: block;
+	height: 5px;
+	border: 0;
+	border-top: 5px solid #1ab99d;
+}
+.blogContentDiv {
+	padding-top: 40px;
+	padding: 12px;
+}
+.blogBtn {
+	background: #444;
+	padding: 5px 15px;
+	color: #fff;
+	border-radius: 10px;
+	margin-top: 20px;
+	border: none;
+	justify-content: center;
+	/* float: right; */
+}
+.blogBtn:hover {
+	transform: scale(1.01);
+	padding: 5px 15px;
+	color: #fff;
+	border-radius: 10px;
+	margin-top: 20px;
+	border: none;
+	/* float: right; */
+	box-shadow: 0 0 10px 5px rgba(214, 214, 214, 0.973);
+	cursor: pointer;
+	align-items: center;
+	text-decoration: none;
+	border-radius: 10px;
+}
+.navigateHr {
+	border: 3px solid #444;
+	border-radius: 5px;
+}
+
+@media only screen and (max-width: 415px) {
+	.BlogListingContainer {
+		overflow-x: hidden !important;
+	}
+	.blogImg {
+		width: 350px;
+	}
+	.BlgLstCardDiv {
+		width: 350px;
+	}
+}

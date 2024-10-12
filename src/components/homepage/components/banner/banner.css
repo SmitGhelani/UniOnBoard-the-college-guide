@@ -1,0 +1,243 @@
+.bannerleftimg{
+  width: 75%;
+  height: 35vh;
+ display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: auto;
+  margin: auto;
+}
+.bannermain {
+  background: linear-gradient(#047ae8, #2c6cf965)!important;
+  
+  width: 100%;
+  
+}
+.bannername{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+ margin-left: auto;
+ margin-right: auto;
+
+}
+.pbanner {
+  
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 10px;
+}
+.bannerrightimg {
+  width: 75%;
+  height: 35vh;
+ display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: auto;
+  margin: auto;
+  
+}
+@media screen and (max-width:1400px){
+  .bannerrightimg {
+    width: 75%;
+    height: 25vh;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+    margin: auto;
+    
+  }
+  .bannerleftimg{
+    width: 75%;
+    height: 25vh;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+    margin: auto;
+  }
+}
+@media screen and (max-width:1200px){
+
+  .bannerleftimg{
+    width: 75%;
+    height: 25vh;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+    margin: auto;
+  }
+  .bannerrightimg {
+    width: 75%;
+    height: 25vh;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+    margin: auto;
+    
+  }
+}
+
+@media screen and (max-width:992px){
+
+  .bannerleftimg{
+    width: 75%;
+    height: 22vh;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+    margin: auto;
+  }
+  .bannermain {
+    background: linear-gradient(#047ae8, #2c6cf965)!important;
+    
+    width: 100%;
+    
+  }
+  .bannername{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+   margin-left: auto;
+   margin-right: auto;
+   font-size: 25px;
+  }
+  .pbanner {
+    
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .bannerrightimg {
+    width: 75%;
+    height: 22vh;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+    margin: auto;
+    
+  }
+}
+
+
+@media screen and (max-width:770px){
+  .bannerleftimg{
+    width: 75%;
+    height: 18vh;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+    margin: auto;
+  }
+  .bannermain {
+    background: linear-gradient(#047ae8, #2c6cf965)!important;
+    
+    width: 100%;
+    
+  }
+  .bannername{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+   margin-left: auto;
+   margin-right: auto;
+   font-size: 18px;
+  }
+  .pbanner {
+    
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .bannerrightimg {
+    width: 75%;
+    height: 18vh;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+    margin: auto;
+    
+  }
+
+}
+
+@media screen and (max-width:500px){
+
+  .bannerleftimg{
+    width: 75%;
+    height: 15vh;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+    margin: auto;
+  }
+  .bannermain {
+    background: linear-gradient(#047ae8, #2c6cf965)!important;
+    
+    width: 100%;
+    
+  }
+  .bannername{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+   margin-left: auto;
+   margin-right: auto;
+   font-size: 12px;
+  }
+  .pbanner {
+    
+    font-size: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .bannerrightimg {
+    width: 75%;
+    height: 15vh;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+    margin: auto;
+    
+  }
+
+
+}

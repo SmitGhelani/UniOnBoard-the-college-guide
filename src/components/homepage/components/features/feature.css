@@ -1,0 +1,15 @@
+.bordericon{
+    background-color: #1AB99D38;
+    padding: 5px;
+   margin-right: 5px;
+   font-size: small;
+   cursor: pointer;
+}
+.cardimgs{
+    height: 20vh!important;
+    width: auto;
+}
+.cardname{
+    font-size: 18px;
+    cursor: pointer;
+}

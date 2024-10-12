@@ -1,0 +1,109 @@
+.cListingContainer{
+    margin-top: 38px;
+}
+.filter-main{
+    margin: 10px;
+    padding: 10px;
+}
+.form-main{
+    margin-top: 80px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    
+}
+.label-main,.labeltag{
+  
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.listgroupmain{
+    margin-top: 10px;
+    padding: 10px;
+  
+}
+.card-box{
+    border: transparent;
+    box-shadow: 1px 0px 12px 6px rgba(223, 222, 222, 0.33);
+-webkit-box-shadow: 1px 0px 12px 6px rgba(223, 222, 222, 0.33);
+-moz-box-shadow: 1px 0px 12px 6px rgba(223, 222, 222, 0.33);
+    border-radius: 5px;
+    padding: 20px;
+}
+.navigateButton{
+    margin:10px;
+    background: #444;
+    padding: 10px;
+    color: white;
+    border:none;
+    border-radius: 10px;
+    width: 150px;
+   
+}
+.navigateButton:hover {
+   
+   
+    box-shadow: 0 0 20px 10px rgba(196, 196, 196, 0.973);
+    cursor: pointer;
+    border-radius: 15px;
+    
+    text-decoration: none;
+ 
+   
+}
+.navigateText{
+    padding: 10px;
+    font-weight: 600;
+    /* font-family: fantasy; */
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+   
+}
+.navigateHr{
+    border: 3px solid #1AB99D;
+    border-radius: 5px;
+}
+.onlyPhoneView{
+    display: none;
+}
+.navigatePannel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 415px){
+    .navigateButton{
+        padding: 1% 10%;
+    }
+    
+}
+
+.istTbl{
+    background-color: rgb(240, 240, 240);
+}
+
+.branchRow{
+    text-align: center;
+    margin: 3px;
+    border: 2px solid #234400;
+}
+
+.branchHeadRow{
+    text-align: center;
+    margin: 3px;
+    border: 2px solid #234400;
+}
+
+.branchTblData{
+    padding: 5px;
+    border: 2px solid #234400;
+}
+
+.branchTblHeadData{
+    padding: 5px;
+    border: 2px solid #234400;
+}

@@ -1,0 +1,291 @@
+.course{
+    width:350px;
+    height:fit-content;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 0px;
+    background-color:rgba(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+
+.link{
+    width:100%;
+    height:100%;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+}
+
+.imgDivCard{
+    width: 100%;
+    height: 200px;
+    margin: 0px;
+    padding: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.courseImg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.courseTitle{
+    font-size: 22px;
+    font-weight: 500;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 25px;
+    color: #444;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.diffCard{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+
+.courseCardDiff{
+    padding: 5px;
+    font-size: 14px;
+    background-color: rgb(235,235,235);
+    border-radius: 20px;
+    color: #666;
+    margin-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.iconCardDiff{
+    padding-right: 10px;
+    font-size: 14px;
+    color: #666;
+}
+
+.captionCard{
+    margin-left: 20px;
+    width: fit-content;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 12px;
+    background-color: rgb(235,235,235);
+    border-radius: 20px;
+    color: rgb(68, 68, 68);
+    margin-right: 20px;
+}
+
+.iconCardCaption{
+    font-size: 12px;
+    color: rgb(68, 68, 68);
+}
+
+.courseCardCategory{
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    background-color: rgb(235,235,235);
+    border-radius: 20px;
+    color: #666;
+}
+
+.iconCardCategory{
+    padding-right: 10px;
+    font-size: 18px;
+    color: #666;
+}
+
+.courseRating{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+}
+
+.iconCard{
+    color: #555;
+    margin-right: 10px;
+    font-size: 16px;
+}
+hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.courseReleseTime{
+    font-size: 14px;
+    color: #555;
+    margin-top: 5px;
+    justify-content: left;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.courseCardLanguage{
+    margin: 10px;
+    margin-left: 20px;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.iconCardLangage{
+    color: #666;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+
+.courseCardAuthor{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.cardStaticTitle{
+    color: #888;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.cardAuthDetails{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(212, 212, 212);
+    padding: 10px;
+    margin-right: 50px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-left: 10px solid #222;
+}
+
+.cardAuthImg{
+    padding-right: 10px;
+    object-fit: cover;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.authImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.cardAuthData{
+    margin-left: 10px;
+    line-height: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardAuthName{
+    padding-top: 5px;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: black;
+}
+
+.cardAuthMail{
+    font-size: 12px;
+    margin-top: 0px;
+    color: #444;
+    font-weight: 300;
+    padding-top: 2px;
+}
+
+.courseRatingPoint, .courseReviewCount{
+    margin-right: 10px;
+}
+
+.courseFilledStar{
+    font-size: 15px;
+    padding: 2px;
+}
+
+.coursePriceCard{
+    font-size:30px;
+    font-weight: 500;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 20px;
+    line-height: 25px;
+    color: rgb(0, 0, 0);
+}
+
+.link {
+    text-decoration: none;
+    text-transform: none;
+}
+
+.link:link, .link:visited {
+    text-decoration: none;
+    color: black;
+}
+  
+.link:hover, .link:active {
+    text-decoration: none;
+}
+
+.updateDeleteBtn{
+    width:100%;
+    height:100%;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.updateBtnProfile{
+    width:100%;
+    background-color: rgb(57, 188, 114);
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.deleteBtnProfile{
+    width: 100%;
+    margin: 10px;
+    margin-right: 20px;
+    background-color: rgb(255, 94, 94);
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.updateBtnLink{
+    width:100%;
+    margin: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+}

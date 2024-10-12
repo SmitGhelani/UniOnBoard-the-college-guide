@@ -1,0 +1,61 @@
+.clcMainContainer{
+    margin-top: 20px;
+}
+.instituteImg{
+    /* height: 194px;
+    width: 202px; */
+    height: 50px;
+    width: 50px;
+}
+.instituteName{
+    text-align: left;
+    font: normal normal 600 20px/30px Poppins;
+    letter-spacing: 0px;
+    color: #0B1E34;
+    opacity: 1;
+    margin-bottom: 0%;
+}
+.instituteRating{
+    text-align: left;
+    font: normal normal 600 14px/25px Poppins;
+    letter-spacing: 0px;
+    color: #0B1E34;
+    opacity: 0.5;
+}
+.instituteFees{
+    text-align: left;
+    font: normal normal 600 14px/25px Poppins;
+    letter-spacing: 0px;
+    color: #0B1E34;
+    opacity: 0.5;
+}
+.instituteEnrolledStundet{
+    text-align: left;
+    font: normal normal 600 14px/25px Poppins;
+    letter-spacing: 0px;
+    color: #0B1E34;
+    opacity: 0.5;
+}
+.instituteLocationImg{
+    height: 20px;
+    width: 20px;
+}
+.iAddress{
+    text-align: left;
+    font: normal normal 600 14px/25px Poppins;
+    letter-spacing: 0px;
+    color: #0B1E34;
+    opacity: 1;
+}
+.exploreBtn{
+    background: #fff;
+    border: none;
+    margin-bottom: 10px;
+}
+
+
+@media only screen and (max-width: 415px){
+    .LocationLogoCol{
+        display: none;
+    }
+}

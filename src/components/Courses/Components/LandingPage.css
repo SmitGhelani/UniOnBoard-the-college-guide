@@ -1,0 +1,321 @@
+.landingPage{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: rgba(237, 242, 246,1);
+}
+
+.mainBackGroundImg{
+    width:100%;
+    height: 300px;
+    top:1;
+    object-fit:cover;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0px 10px 0px 0px rgb(242, 242, 242);
+}
+
+.mainPanel{
+    display: flex;
+    background: rgba(237, 242, 246,1);
+    justify-content: center;  
+    align-content: flex-start;
+}
+
+.subMainPanel{
+    flex: 9;
+    background-color: white;
+    margin: 50px;
+    padding: 40px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    text-align: left; 
+    flex-wrap: wrap;
+    padding-right: 80px;
+
+}
+
+.courseTitleLandingPage{
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    margin-top: 10px;
+    line-height: 60px;
+    text-align: left;
+    justify-content: left;
+    color: #333;
+    font-weight: 600;
+}
+
+.authorImg{
+    margin-top: 20px;
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    flex-direction: row;
+    align-items: center;
+}
+
+.authorImgIcon{
+    width:40px;
+    height:40px;
+    object-fit: cover;
+    box-sizing: 5px;
+    background-color: rgb(10, 0, 14);
+    border-radius: 50%;
+    align-items: center;
+    padding: 3px;
+}
+
+.authorName{
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.authorMail{
+    font-weight: 220;
+    line-height: 16px;
+    font-size: 15px;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+}
+
+.iconLecture{
+    color: rgb(37, 95, 157);
+    font-size: 22px;
+    padding-right:10px ;
+    margin-left: 10px;
+    margin: 10px;
+    justify-content: right;
+    align-items: right;
+    text-align: right;
+}
+
+.lecturesCount{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(238,238,238);
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    line-height: 20px;
+    border-radius: 10px;
+    border-left: 10px solid #035d00;
+    margin-left: 30px;
+    font-weight: 500;
+    font-size: 18px;
+    color: black;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.coursePromoLandingDiv{
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    border-left: 10px solid #035d00;
+    background-color: rgb(238,238,238);
+    align-items: center;
+    justify-content: center;
+}
+
+.coursePromoLandingPage{
+    width: 40vw;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    object-fit: cover;
+    
+}
+
+.courseDescLandingPage, .courseLearingLandingPage{
+    color: black;
+    margin-top: 25px;
+    line-height: 30px;
+    background-color: rgb(238,238,238);
+    border-radius: 10px;
+    padding: 20px;
+    border-left: 10px solid #035d00;
+}
+
+.staticTitle{
+    color: #222;
+    font-size: 23px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 30px;
+}
+
+.courseDescContentLandingPage, .courseLearingContentLandingPage{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 15px;
+    line-height: 30px;
+    text-align: justify; 
+    font-weight: 350;
+}
+
+.courseRequirementLandingPage{
+    color: black;
+    margin-top: 25px;
+    line-height: 30px;
+    background-color: rgb(238,238,238);
+    border-radius: 10px;
+    padding: 20px;
+    border-left: 10px solid #035d00;
+    margin-bottom: 30px;
+}
+
+.courseRequirementContentLandingPage{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 15px;
+    line-height: 30px;
+    text-align: justify; 
+    font-weight: 350;
+}
+
+.sidePanel{
+    flex:2.5;
+    justify-content: start;
+    width:fit-content;
+    height:fit-content;
+    margin-top: 50px;
+    margin-right: 150px;
+    border-radius: 10px;
+    border-color: black;
+    background-color: white;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    box-shadow: 1px 1px 5px rgb(171, 171, 171);
+}
+
+.sidebarHeading{
+    font-size: 24px;
+    color: #333;
+    line-height: 35px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.courseLanguageLandingPage{
+    font-size: 18px;
+    text-align: left;
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 380;
+    padding-bottom: 10px;
+    color: #222;
+    background-color: rgb(240, 240, 240);
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-left: 10px solid #00aa9b;
+}
+
+.courseLearningLandingPage, .courseDifficultyLandingPage{
+    font-size: 18px;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 380;
+    padding-bottom: 10px;
+    color: #222;
+    background-color: rgb(240, 240, 240);
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-left: 10px solid #00aa9b;
+}
+
+.courseCategoryLandingPage{
+    font-size: 18px;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 380;
+    color: #222;
+    background-color: rgb(240, 240, 240);
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-left: 10px solid #00aa9b;
+}
+
+.coursePriceLandingPage{
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: rgb(71, 148, 255);
+    align-items: center;
+    justify-content: center;
+}
+
+.sidePanelIcon{
+    font-size: 25px;
+    width:50px;
+    text-align: left;
+    color: rgb(71, 148, 255);
+}
+
+.sidePanelRupeeIcon{
+    font-size: 25px;
+    margin: 3px;
+    text-align: center;
+    color: rgb(71, 148, 255);
+}
+
+.button{
+    border: none;
+    background-color: rgb(71, 148, 255);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    width: 100%;
+    height:50px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgb(221, 221, 221);
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+hr{
+    
+    color: black;
+    width: 100%;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(238,238,238);
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    line-height: 20px;
+    border-radius: 10px;
+    border-left: 10px solid #035d00;
+}
+
+.column{
+    display: flex;
+    padding-left: 15px;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+}
+
+.countValue{
+    padding-right: 20px;
+    font-family: 'Poppins', sans-serif;
+}

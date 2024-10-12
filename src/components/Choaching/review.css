@@ -1,0 +1,78 @@
+.reviewHeadingContainer{
+    background: grey;
+    margin-top: 9.438rem;
+    /* height: 37.688rem; */
+    margin-bottom: 4.75rem;
+}
+.reviewHeading{
+    text-align: center;
+    font: normal normal bold 40px/60px Poppins;
+    letter-spacing: -1.2px;
+    color: #FFFFFF;
+    opacity: 1;
+    padding-top: 4.688rem;
+}
+.reviewCardRow{
+    justify-content: center;
+    padding-bottom: 4.313rem;
+}
+.reviewCradColumn{
+    text-align: center;
+}
+
+
+
+.reviewCardBox{
+    width: 23.125rem;
+    height: 22.188rem;
+    background: #FFFFFF;
+    margin-top: 3rem;
+    border-radius: 5px;
+}
+.reviewCardDesRow{
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.reviewCardDescription{
+    font: normal normal medium 18px/34px Poppins;
+    letter-spacing: -0.72px;
+    color: #7D7887;
+    opacity: 1;
+    padding-top: 2.688rem;
+    padding-left: 3.063rem;
+    padding-right: 3.063rem;
+    text-align: left;
+}
+.reviewCardDetail{
+    margin-top: 1.5rem;
+}
+.reviewCardName{
+    
+    font: normal normal medium 18px/27px Poppins;
+    letter-spacing: -0.54px;
+    color: #000000; 
+    opacity: 1;
+}
+.reviewCardDesignation{
+    
+    font: normal normal medium 12px/18px Poppins;
+    letter-spacing: -0.36px;
+    color: #00AF92;
+    opacity: 1;
+}
+.reviewCardImg{
+    border-radius: 50%;
+    height: 4.813rem;
+    width: 4.813rem;
+}
+
+@media only screen and (max-width: 415px)  {
+    
+    .reviewCardBox{
+        width: 21.125rem;
+        height: 22.188rem;
+        background: #FFFFFF;
+        margin-top: 3rem;
+        border-radius: 5px;
+    }
+}

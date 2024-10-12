@@ -1,0 +1,333 @@
+.cdHeadingContainer{
+  background-image:url('https://source.unsplash.com/random/?city,night');
+    margin-top: 0%;
+    background-size: 100%;
+}
+.cdHeading{
+    text-align: center;
+    font: normal normal bold 60px/90px Poppins;
+    letter-spacing: 0.6px;
+    color: #f8f7f7;
+    opacity: 1;
+    padding-top: 116px;
+
+    /* position: absolute;
+    transform: translate(22%, -100%); */
+}
+
+
+
+.cdAddress{
+    text-align: center;
+    font-size: 24px;
+    margin-top: 25px;
+    font: normal normal 600 24px/35px Poppins;
+    letter-spacing: 0.24px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.cdRatings{
+    font-size: 22px;
+    text-align: center;
+    margin-top: 25.6px;
+    font: normal normal 600 22px/33px Poppins;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.cdVisitSite{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 27.4px;
+    font: normal normal medium 20px/30px Poppins;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    opacity: 1;
+    padding-bottom: 108px;
+}
+
+.cdSiteLink{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.cdInfoContainer{
+    margin-top: 3.625rem;
+}
+.cdInfoWelcome{
+    text-align: left;
+    font: normal normal bold 32px/48px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.cdInfoDetails{
+    text-align: left;
+    font: normal normal medium 16px/34px Poppins;
+    letter-spacing: 0px;
+    color: #7D7887;
+    opacity: 1;
+}
+.cdInfoDetails2{
+    text-align: left;
+    font: normal normal medium 18px/34px Poppins;
+    letter-spacing: 0px;
+    color: #0F957D;
+    opacity: 1;
+}
+
+.cdInfoDetailsImg{
+    border-radius: 5px;
+    height: 17rem;
+    width: 21rem;
+    margin-top: 100px;
+}
+
+.cdCourceHeading{
+    width: 19.375rem;
+    height: 3.313rem;
+    background: #00AF92;
+    text-align: center;
+    border-radius: 5px;
+    opacity: 0.84;
+   
+}
+.cdCourceHeading1{
+    font: normal normal 600 16px/25px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    padding-top: 0.938rem;
+}
+.cdCoursesBtn{
+    width: 19.375rem;
+    height: 3.313rem;
+    text-align: left;
+    margin-top: 0.75rem;
+    border-radius: 5px;
+    border: 0.5px solid #00AF92;
+    padding-top: 0.938rem;
+    font: normal normal 600 16px/25px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 0.48;
+    background: #fff;
+}
+.cdCourceBox{
+    width: 23.25rem;
+    height: 38.063rem;
+    background: #00AF920D;
+    padding-left: 1.938rem;
+    padding-top: 1.875rem;
+}
+.cdContact{
+    position: relative;
+    
+}
+.cdContactImg{
+    width: 23.25rem;
+    height: 24.688rem;
+    margin-top: 9.25rem;
+    opacity: 0.3;
+    border-radius: 9px;
+}
+.cdContactImg1{
+    width: 99%;
+    height: 35rem;
+    margin-top: 0rem;
+    opacity: 0.7;
+    position: absolute;
+    z-index: -1;
+}
+.cdContactText{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-60%, -50%);
+    font: normal normal bold 32px/48px Poppins;
+    letter-spacing: -0.96px;
+    color: #FFFFFF;
+    opacity: 1;
+    text-align: center;
+}
+.cdContactNumber1{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-60%, -50%);
+    font: normal normal medium 15px/23px Poppins;
+    letter-spacing: -0.45px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.cdContactNumber2{
+    top: 80%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-60%, -50%);
+    font: normal normal bold 27px/40px Poppins;
+    letter-spacing: -0.81px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.cdInfoTitleImg{
+    height: 23.375rem;
+    width: 48.188rem;
+    margin-top: 2.125rem;
+    margin-bottom: 2rem;
+}
+.couponCard{
+    height: 22.75rem;
+    width: 23.25rem;
+    margin-top: -5rem;
+}
+.cdInfoCouponGradient{
+    position:absolute;
+    z-index: 1;
+    height: 22.75rem;
+    width: 23.25rem;
+    margin-top: 7rem;
+}
+.cdInfoCouponGradient2{
+    position:absolute;
+    z-index: 2;
+    height: 22.75rem;
+    width: 23.25rem;
+    margin-top: 7rem;
+}
+.cdInfoCouponLogo{
+    position: absolute;
+    z-index: 3;
+    height: 5.75rem;
+    width: 5.75rem;
+    margin-top: 8rem;
+    margin-left: 9rem;
+}
+.cdInfoCouponText1{
+    position: absolute;
+    z-index: 3;
+    height: 5.75rem;
+    width: 14rem;
+    margin-top: 15rem;
+    text-align: center;
+    margin-left: 5rem;
+    font: normal normal 600 14px/21px Poppins;
+    letter-spacing: -0.42px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.cdInfoCouponText2{
+    position: absolute;
+    z-index: 3;
+    /* height: 5.75rem; */
+    width: 22rem;
+    margin-top: 18rem;
+    text-align: center;
+    margin-left: 0.5rem;
+    font: normal normal medium 14px/21px Poppins;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+.cdInfoCouponText3{
+    position: absolute;
+    z-index: 3;
+    /* height: 5.75rem; */
+    width: 22rem;
+    margin-top: 20rem;
+    text-align: center;
+    margin-left: 0.5rem;
+    font: normal normal medium 14px/21px Poppins;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+.cdInfoCouponText4{
+    position: absolute;
+    z-index: 3;
+    /* height: 5.75rem; */
+    width: 22rem;
+    margin-top: 22rem;
+    text-align: center;
+    margin-left: 0.5rem;
+    font: normal normal medium 14px/21px Poppins;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+.cdInfoCouponText5{
+    position: absolute;
+    z-index: 3;
+    /* height: 5.75rem; */
+    width: 22rem;
+    margin-top: 24rem;
+    text-align: center;
+    margin-left: 0.5rem;
+    font: normal normal medium 14px/21px Poppins;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+.cdInfoCouponBtn{
+    position: absolute;
+    z-index: 3;
+    margin-top: 26.7rem;
+    margin-left: 7.5rem;
+    font: normal normal 600 12px/18px Poppins;
+    letter-spacing: -0.36px;
+    color: #F25467;
+    opacity: 1;
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+}
+.BIHeading{
+    margin-top: 15px;
+}
+.CBIHeading{
+    margin-top: 15px;
+}
+.paddingClassBasic{
+    margin-top: 50px;
+}
+.verticleLine{
+    border-left: 5px solid #1AB99D;
+    height: 300px;
+}
+.moreInfoText{
+    font-weight: 600;
+    font-size: 20px;
+    
+}
+
+
+
+
+
+
+@media only screen and (max-width: 415px) {
+    .cdHeadingContainer{
+        background: gray;
+    }
+    .cdContactImg1{
+        display: none;
+    }
+    .cdInfoTitleImg{
+        height: 29.375rem;
+        width: 23rem;
+        margin-top: 2.125rem;
+        margin-bottom: 2rem;
+    }
+    .cdHeading{
+        font-size: 40px;
+    }
+    .cdInfoTitleImg{
+        margin-top: 8.125rem;
+    }
+    .verticleLine{
+        display: none;
+    }
+    
+}

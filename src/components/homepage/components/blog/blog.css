@@ -1,0 +1,60 @@
+.blogp{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.blogcard{
+    background: transparent;
+   
+}
+.blogmain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #CAEDE86B 0% 0% no-repeat padding-box;
+}
+
+
+/* @media screen and (max-width:700px){
+.imgblog{
+    width:100%;
+    height:40vh!important;
+    padding-left: 20px!important;
+        padding-right: 20px!important;
+
+}
+} */
+@media screen and (max-width:500px){
+    .blogcard{
+        background: transparent;
+        width:auto;
+        height:auto;
+        font-size:10px;
+       
+    }
+    
+    .blogp{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        text-align:center;
+        font-size:15px;
+    }
+    .blogtext{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        text-align:center;
+        font-size:8px;
+    }
+    .blogtitle{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        text-align:center;
+        font-size:10px;
+    }
+   
+}
