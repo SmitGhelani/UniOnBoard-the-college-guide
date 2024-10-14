@@ -58,15 +58,16 @@ const Navbar = (props) => {
   const [token, setToken] = useState("")
 
   useEffect(() => {
-    
-    axios.get('https://unionboard-backend.smitghelani.xyz/cookiestatus')
-    .then( response => {
-        console.log(response);
-        setToken(response.data.token)
-    })
-    .catch(error => {
-      console.log("No cookie found.");
-    });
+    setInterval(()=>{
+      axios.get('https://unionboard-backend.smitghelani.xyz/cookiestatus')
+      .then( response => {
+          console.log(response);
+          setToken(response.data.token)
+      })
+      .catch(error => {
+        console.log("No cookie found.");
+      });
+    },2000)
   },[])
 
   const logoutCall = async () => {
