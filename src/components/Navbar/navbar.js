@@ -58,7 +58,6 @@ const Navbar = (props) => {
   const [token, setToken] = useState("")
 
   useEffect(() => {
-    setInterval(()=>{
       axios.get('https://unionboard-backend.smitghelani.xyz/cookiestatus',{
         headers: {
                    "Accept": "application/json",
@@ -73,7 +72,6 @@ const Navbar = (props) => {
       .catch(error => {
         console.log("No cookie found.");
       });
-    },2000)
   },[])
 
   const logoutCall = async () => {
