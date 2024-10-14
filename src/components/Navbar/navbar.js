@@ -57,13 +57,9 @@ const Navbar = (props) => {
 
   const [token, setToken] = useState("")
 
-    useEffect(() => {
-      axios.post('https://unionboard-backend.smitghelani.xyz/cookiestatus',{}, {
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        withCredentials: true
-    })
+  useEffect(() => {
+    
+      axios.get('https://unionboard-backend.smitghelani.xyz/cookiestatus')
     .then( response => {
         console.log(response);
         setToken(response.data.token)
