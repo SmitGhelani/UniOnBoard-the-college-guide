@@ -46,7 +46,7 @@
 //     //     const res = await fetch("https://unionboard-backend.smitghelani.xyz/userdashboard", {
 //     //       method: "GET",
 //     //       headers: {
-//     //         Accept: "application/json",
+//     //         "Accept": "application/json",
 //     //         "Content-Type": 'application/json',
 //     //       },
 //     //       credentials: "include"
@@ -65,7 +65,7 @@
 //     useEffect(() => {
 //         axios.get(dashboardURL,{
 //           headers: {
-//                      Accept: "application/json",
+//                      "Accept": "application/json",
 //                      "Content-Type": 'application/json',
 //                    },
 //                    withCredentials: true
@@ -79,7 +79,7 @@
 //          if(viewBlog){
 //             axios.get(facultyPersonalBlogs,{
 //                 headers: {
-//                            Accept: "application/json",
+//                            "Accept": "application/json",
 //                            "Content-Type": 'application/json',
 //                          },
 //                          withCredentials: true
@@ -96,7 +96,7 @@
                
 //               },{
 //                 headers: {
-//                     Accept: "application/json",
+//                     "Accept": "application/json",
 //                     "Content-Type": 'application/json',
 //                   },
 //                   withCredentials: true
@@ -302,7 +302,7 @@ function Profile(){
     useEffect(() => {
         axios.get(dashboardURL,{
           headers: {
-                     Accept: "application/json",
+                     "Accept": "application/json",
                      "Content-Type": 'application/json',
                    },
                    withCredentials: true
@@ -318,7 +318,7 @@ function Profile(){
          if(viewBlog){
             axios.get(facultyPersonalBlogs,{
                 headers: {
-                           Accept: "application/json",
+                           "Accept": "application/json",
                            "Content-Type": 'application/json',
                          },
                          withCredentials: true
@@ -335,7 +335,7 @@ function Profile(){
                
               },{
                 headers: {
-                    Accept: "application/json",
+                    "Accept": "application/json",
                     "Content-Type": 'application/json',
                   },
                   withCredentials: true

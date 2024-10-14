@@ -106,7 +106,7 @@ export default function SingleCourse() {
     useEffect(()=>{
         axios.get(`https://unionboard-backend.smitghelani.xyz/getCourseContent/${id}`,{
             headers: {
-                       Accept: "application/json",
+                       "Accept": "application/json",
                        "Content-Type": 'application/json',
                      },
                      withCredentials: true

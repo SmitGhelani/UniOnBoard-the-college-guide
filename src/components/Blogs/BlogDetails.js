@@ -24,7 +24,7 @@ const BlogDetails = (props) => {
 		axios
 			.get(peticulerBlogURL, {
 				headers: {
-					Accept: "application/json",
+					"Accept": "application/json",
 					"Content-Type": "application/json",
 				},
 				withCredentials: true,
@@ -44,7 +44,7 @@ const BlogDetails = (props) => {
 	//     const res = await axios(url, {
 	//       method: "GET",
 	//       headers: {
-	//         Accept: "application/json",
+	//         "Accept": "application/json",
 	//         "Content-Type": 'application/json',
 	//       },
 	//       withCredentials: true

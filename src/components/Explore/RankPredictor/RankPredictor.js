@@ -9,7 +9,7 @@ const RankPredictor = () => {
         event.preventDefault();
 		const config = {
 			headers: {
-				Accept: "application/json",
+				"Accept": "application/json",
                 "content-Type":"multipart/form-data"
 			},
 			withCredentials: true,

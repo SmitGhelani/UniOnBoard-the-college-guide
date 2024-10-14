@@ -26,7 +26,7 @@ const BlogListing = () => {
     //     // logoutCall()
     //     axios.get(BListing_URL,{
     //       headers: {
-    //         Accept: "application/json",
+    //         "Accept": "application/json",
     //         "Content-Type": 'application/json',
     //       },
     //       credentials: "include"
@@ -41,7 +41,7 @@ const BlogListing = () => {
       const res = await fetch("https://unionboard-backend.smitghelani.xyz/getAllBlog", {
         method: "GET",
         headers: {
-          Accept: "application/json",
+          "Accept": "application/json",
           "Content-Type": 'application/json',
         },
         credentials: "include"

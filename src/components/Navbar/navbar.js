@@ -61,7 +61,7 @@ const Navbar = (props) => {
     
     axios.get('https://unionboard-backend.smitghelani.xyz/cookiestatus',{
       headers: {
-                 Accept: "application/json",
+                 "Accept": "application/json",
                  "Content-Type": 'application/json',
                },
                withCredentials: true
@@ -80,7 +80,7 @@ const Navbar = (props) => {
       const res = await fetch("https://unionboard-backend.smitghelani.xyz/logout", {
         method: "GET",
         headers: {
-          Accept: "application/json",
+          "Accept": "application/json",
           "Content-Type": 'application/json',
         },
         credentials: "include"

@@ -19,7 +19,7 @@ const ChangePassword = () => {
         axios.post("https://unionboard-backend.smitghelani.xyz/updatePassword",
         formValues,{
             headers: {
-                Accept: "application/json",
+                "Accept": "application/json",
                 "Content-Type": 'application/json',
               },
               withCredentials: true

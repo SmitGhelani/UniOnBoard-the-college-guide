@@ -17,7 +17,7 @@ const Feature = () => {
     const res = await fetch("https://unionboard-backend.smitghelani.xyz/getHomeInst", {
       method: "GET",
       headers: {
-        Accept: "application/json",
+        "Accept": "application/json",
         "Content-Type": 'application/json',
       },
       credentials: "include"

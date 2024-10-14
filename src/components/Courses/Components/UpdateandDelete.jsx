@@ -12,7 +12,7 @@ export default function Courses() {
     axios.get(
         "https://unionboard-backend.smitghelani.xyz/getAllFacultyCourse",{
             headers: {
-                       Accept: "application/json",
+                       "Accept": "application/json",
                        "Content-Type": 'application/json',
                      },
                      withCredentials: true

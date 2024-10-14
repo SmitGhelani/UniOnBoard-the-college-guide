@@ -135,7 +135,7 @@ function DashboardMain() {
   useEffect(() => {
     axios.get(dashboardURL,{
       headers: {
-                 Accept: "application/json",
+                 "Accept": "application/json",
                  "Content-Type": 'application/json',
                },
                withCredentials: true

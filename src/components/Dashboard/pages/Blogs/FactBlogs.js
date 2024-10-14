@@ -45,7 +45,7 @@ const FactBlogs = () => {
 
     const config = {
         headers: {
-            Accept: "application/json",
+            "Accept": "application/json",
             "Content-Type": "multipart/form-data",
           },
           withCredentials: true
@@ -71,7 +71,7 @@ const FactBlogs = () => {
     if(viewBlog){
       axios.get(facultyPersonalBlogs,{
           headers: {
-                     Accept: "application/json",
+                     "Accept": "application/json",
                      "Content-Type": 'application/json',
                    },
                    withCredentials: true
@@ -86,7 +86,7 @@ const FactBlogs = () => {
     const blogDltURL = `https://unionboard-backend.smitghelani.xyz/faculty/blog/${blogID}`;
     axios.delete(blogDltURL,{
         headers: {
-                   Accept: "application/json",
+                   "Accept": "application/json",
                    "Content-Type": 'application/json',
                  },
                  withCredentials: true

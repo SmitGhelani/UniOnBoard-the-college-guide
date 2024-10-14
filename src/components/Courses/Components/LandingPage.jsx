@@ -22,7 +22,7 @@ export default function LandingPage() {
   useEffect(() =>{
       axios.get(`https://unionboard-backend.smitghelani.xyz/getLandingPageData/${id}`,{
         headers: {
-                   Accept: "application/json",
+                   "Accept": "application/json",
                    "Content-Type": 'application/json',
                  },
                  withCredentials: true
@@ -43,7 +43,7 @@ export default function LandingPage() {
 
       axios.get(`https://unionboard-backend.smitghelani.xyz/getPurchases/${id}`,{
         headers: {
-                  Accept: "application/json",
+                  "Accept": "application/json",
                   "Content-Type": 'application/json',
                 },
               withCredentials: true

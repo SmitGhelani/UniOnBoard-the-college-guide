@@ -14,7 +14,7 @@ const ReqFaculties = () => {
 		formData.append("tag", "verified"); 
 		const config = {
             headers: {
-                Accept: "application/json",
+                "Accept": "application/json",
                 "Content-Type": "multipart/form-data",
               },
               withCredentials: true
@@ -44,7 +44,7 @@ const ReqFaculties = () => {
 		formData.append("tag", "unverified"); 
 		const config = {
             headers: {
-                Accept: "application/json",
+                "Accept": "application/json",
                 "Content-Type": "multipart/form-data",
               },
               withCredentials: true
@@ -72,7 +72,7 @@ const ReqFaculties = () => {
 		axios
 			.get("https://unionboard-backend.smitghelani.xyz/admin/getRequestedFaculties",{
 				headers: {
-						   Accept: "application/json",
+						   "Accept": "application/json",
 						   "Content-Type": 'application/json',
 						 },
 						 withCredentials: true
