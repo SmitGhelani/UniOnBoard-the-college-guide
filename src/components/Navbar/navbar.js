@@ -15,6 +15,7 @@ import { BrowserRouter, Link, Outlet, useNavigate } from 'react-router-dom';
 import Footer from '../footer/Footer';
 import './navbar.css'
 import axios from 'axios';
+import { useEffect, useState } from 'react';
 import Cookies from 'universal-cookie';
 
 
@@ -54,11 +55,23 @@ const Navbar = (props) => {
     setAnchorElUser(null);
   };
 
-  const cookies = new Cookies()
+  const [token, setToken] = useState("")
 
-  const token = cookies.get("token")
-
-  console.log(token);
+    useEffect(() => {
+      axios.post('https://unionboard-backend.smitghelani.xyz/cookiestatus', {
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        withCredentials: true
+    })
+    .then( response => {
+        console.log(response);
+        setToken(response.data.token)
+    })
+    .catch(error => {
+      console.log("No cookie found.");
+    });
+  },[])
 
   const logoutCall = async () => {
     try {
