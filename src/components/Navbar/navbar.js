@@ -59,7 +59,7 @@ const Navbar = (props) => {
 
   useEffect(() => {
     setInterval(()=>{
-      axios.get('https://unionboard-backend.smitghelani.xyz/cookiestatus'{
+      axios.get('https://unionboard-backend.smitghelani.xyz/cookiestatus',{
         headers: {
                    "Accept": "application/json",
                    "Content-Type": 'application/json',
