@@ -1,5 +1,5 @@
 .cdHeadingContainer{
-  background-image:url('https://source.unsplash.com/random/?city,night');
+    background: linear-gradient(45deg, black, transparent);
     margin-top: 0%;
     background-size: 100%;
 }
