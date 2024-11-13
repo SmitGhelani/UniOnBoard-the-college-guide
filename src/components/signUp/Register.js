@@ -102,7 +102,7 @@ function Register() {
 				})
 				.catch((error) => {
 					console.log(error);
-					toast(err.response.data.message)
+					toast(error.response.data.message)
 				});
 				
 			
