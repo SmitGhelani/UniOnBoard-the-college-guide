@@ -4,6 +4,7 @@ import axios from "axios";
 import "./signup.css";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import ReCAPTCHA from "react-google-recaptcha";
 
 // toast-configuration method,
 // it is compulsory method.
@@ -24,6 +25,8 @@ function Register() {
   const [user, setUser] = useState(initialState);
   const [photo, setPhoto] = useState(null);
   const { name, email, password, conf_password, role, err, success } = user;
+  const [capValStudent, setCapValStudent] = useState(null);
+  const [capValFac, setCapValFac] = useState(null);
 
   const handleChangeInput = (e) => {
     const { name, value } = e.target;
@@ -180,7 +183,12 @@ function Register() {
                 onChange={(e) => setPhoto(e.target.files[0])}
               />
               <input type="hidden" id="role" name="role" value="student" />
-              <button className="button1" type="submit">
+              <ReCAPTCHA
+                className="recaptcha"
+                sitekey={"${process.env.RECAPTCHA_SITE_KEY}"}
+                onChange={(val) => setCapValFac(val)}
+              />
+              <button className="button1" type="submit" disabled={!capValFac}>
                 Sign up
               </button>
             </form>
@@ -223,7 +231,12 @@ function Register() {
                 value={conf_password}
                 onChange={handleChangeInput}
               />
-              <button className="button1" type="submit">
+              <ReCAPTCHA
+                className="recaptcha"
+                sitekey={"${process.env.RECAPTCHA_SITE_KEY}"}
+                onChange={(val) => setCapValStudent(val)}
+              />
+              <button className="button1" type="submit" disabled={!capValStudent}>
                 Sign up
               </button>
             </form>
