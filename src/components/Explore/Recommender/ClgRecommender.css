@@ -1,26 +1,25 @@
 .clgcard {
-	width: 800px;
-	height: 490px;
-	justify-content: center;
-	align-self: center;
-	align-content: center;
-	align-items: center;
-	margin-left: 220px;
-	border-radius: 32px;
-	background: #ffffff;
-	box-shadow: 15px 15px 27px #ebebeb, -15px -15px 27px #ffffff;
-	padding-top: 10px;
-	color: black;
-	margin-bottom: 40px;
-	margin-top: 20px;
-    
+  width: 800px;
+  height: 490px;
+  justify-content: center;
+  align-self: center;
+  align-content: center;
+  align-items: center;
+  margin-left: 220px;
+  border-radius: 32px;
+  background: #ffffff;
+  box-shadow: 15px 15px 27px #ebebeb, -15px -15px 27px #ffffff;
+  padding-top: 10px;
+  color: black;
+  margin-bottom: 40px;
+  margin-top: 20px;
 }
-.clgcard:hover{
-    border-bottom: 5px solid black;
+.clgcard:hover {
+  border-bottom: 5px solid black;
 }
 datalist {
-    display: flex;
-    justify-content: space-between;
-    color: red;
-    width: 50%;
-  }
+  display: flex;
+  justify-content: space-between;
+  color: red;
+  width: 50%;
+}

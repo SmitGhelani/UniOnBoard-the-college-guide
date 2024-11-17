@@ -1,61 +1,58 @@
-.rankerHeading{
-    text-align: center;
-    margin-top: 87.41px;
+.rankerHeading {
+  text-align: center;
+  margin-top: 87.41px;
 }
 
-.rankerCard{
-    width: 370px;
-    height: 436px;
-    border-radius: 15px;
+.rankerCard {
+  width: 370px;
+  height: 436px;
+  border-radius: 15px;
 }
-.rankerCardTitle{
-    font-size: 20px;
-    font:normal normal bold 20px/27px Segoe UI;
-    letter-spacing: 0.2px;
-    color: #FFFFFF;
-    opacity: 1;
-    padding-top: 271px;
+.rankerCardTitle {
+  font-size: 20px;
+  font: normal normal bold 20px/27px Segoe UI;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  opacity: 1;
+  padding-top: 271px;
 }
-.rankerCardTextdsg{
-    font: normal normal bold 16px/21px Segoe UI;
-    letter-spacing: 0.16px;
-    color: #FFFFFF;
-    /* color: #142F64; */
-    opacity: 1;
-    font-size: 16px;
-    margin-top: 239px;
-   
+.rankerCardTextdsg {
+  font: normal normal bold 16px/21px Segoe UI;
+  letter-spacing: 0.16px;
+  color: #ffffff;
+  /* color: #142F64; */
+  opacity: 1;
+  font-size: 16px;
+  margin-top: 239px;
 }
-.rankerCardTextdsc{
-    font: normal normal 600 18px/34px Segoe UI;
-    letter-spacing: 0.2px;
-    color: #FFFFFF;
-    /* color: #142F64; */
-    opacity: 1;
-    font-size: 18px;
-    margin-top: 312px;
+.rankerCardTextdsc {
+  font: normal normal 600 18px/34px Segoe UI;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  /* color: #142F64; */
+  opacity: 1;
+  font-size: 18px;
+  margin-top: 312px;
 }
-.rankerCardBody{
-    /* margin-bottom: 300px; */
-    border-radius: 5px;
-    
+.rankerCardBody {
+  /* margin-bottom: 300px; */
+  border-radius: 5px;
 }
 
 @media only screen and (max-width: 415px) {
-    .rankerCard{
-        height: 280px;
-    }
-    .rankerCardTitle{
-        font-size: 16px;
-        padding-top: 180px;
-    }
-    .rankerCardTextdsg{
-        font-size: 14px;
-        margin-top: 160px;
-       
-    }
-    .rankerCardTextdsc{
-        margin-top: 220px;
-        font: normal normal 600 14px/15px Segoe UI;
-    }
+  .rankerCard {
+    height: 280px;
+  }
+  .rankerCardTitle {
+    font-size: 16px;
+    padding-top: 180px;
+  }
+  .rankerCardTextdsg {
+    font-size: 14px;
+    margin-top: 160px;
+  }
+  .rankerCardTextdsc {
+    margin-top: 220px;
+    font: normal normal 600 14px/15px Segoe UI;
+  }
 }

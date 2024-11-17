@@ -1,30 +1,27 @@
-.bannerleftimg{
+.bannerleftimg {
   width: 75%;
   height: 35vh;
- display: flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   padding: auto;
   margin: auto;
 }
 .bannermain {
-  background: linear-gradient(#047ae8, #2c6cf965)!important;
-  
+  background: linear-gradient(#047ae8, #2c6cf965) !important;
+
   width: 100%;
-  
 }
-.bannername{
+.bannername {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
- margin-left: auto;
- margin-right: auto;
-
+  margin-left: auto;
+  margin-right: auto;
 }
 .pbanner {
-  
   font-size: 17px;
   display: flex;
   align-items: center;
@@ -38,40 +35,37 @@
 .bannerrightimg {
   width: 75%;
   height: 35vh;
- display: flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   padding: auto;
   margin: auto;
-  
 }
-@media screen and (max-width:1400px){
+@media screen and (max-width: 1400px) {
   .bannerrightimg {
     width: 75%;
     height: 25vh;
-   display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     padding: auto;
     margin: auto;
-    
   }
-  .bannerleftimg{
+  .bannerleftimg {
     width: 75%;
     height: 25vh;
-   display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     padding: auto;
     margin: auto;
   }
 }
-@media screen and (max-width:1200px){
-
-  .bannerleftimg{
+@media screen and (max-width: 1200px) {
+  .bannerleftimg {
     width: 75%;
     height: 25vh;
-   display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     padding: auto;
@@ -80,44 +74,40 @@
   .bannerrightimg {
     width: 75%;
     height: 25vh;
-   display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     padding: auto;
     margin: auto;
-    
   }
 }
 
-@media screen and (max-width:992px){
-
-  .bannerleftimg{
+@media screen and (max-width: 992px) {
+  .bannerleftimg {
     width: 75%;
     height: 22vh;
-   display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     padding: auto;
     margin: auto;
   }
   .bannermain {
-    background: linear-gradient(#047ae8, #2c6cf965)!important;
-    
+    background: linear-gradient(#047ae8, #2c6cf965) !important;
+
     width: 100%;
-    
   }
-  .bannername{
+  .bannername {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
-   margin-left: auto;
-   margin-right: auto;
-   font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
   }
   .pbanner {
-    
     font-size: 15px;
     display: flex;
     align-items: center;
@@ -130,44 +120,40 @@
   .bannerrightimg {
     width: 75%;
     height: 22vh;
-   display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     padding: auto;
     margin: auto;
-    
   }
 }
 
-
-@media screen and (max-width:770px){
-  .bannerleftimg{
+@media screen and (max-width: 770px) {
+  .bannerleftimg {
     width: 75%;
     height: 18vh;
-   display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     padding: auto;
     margin: auto;
   }
   .bannermain {
-    background: linear-gradient(#047ae8, #2c6cf965)!important;
-    
+    background: linear-gradient(#047ae8, #2c6cf965) !important;
+
     width: 100%;
-    
   }
-  .bannername{
+  .bannername {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
-   margin-left: auto;
-   margin-right: auto;
-   font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
   }
   .pbanner {
-    
     font-size: 12px;
     display: flex;
     align-items: center;
@@ -180,45 +166,40 @@
   .bannerrightimg {
     width: 75%;
     height: 18vh;
-   display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     padding: auto;
     margin: auto;
-    
   }
-
 }
 
-@media screen and (max-width:500px){
-
-  .bannerleftimg{
+@media screen and (max-width: 500px) {
+  .bannerleftimg {
     width: 75%;
     height: 15vh;
-   display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     padding: auto;
     margin: auto;
   }
   .bannermain {
-    background: linear-gradient(#047ae8, #2c6cf965)!important;
-    
+    background: linear-gradient(#047ae8, #2c6cf965) !important;
+
     width: 100%;
-    
   }
-  .bannername{
+  .bannername {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
-   margin-left: auto;
-   margin-right: auto;
-   font-size: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12px;
   }
   .pbanner {
-    
     font-size: 9px;
     display: flex;
     align-items: center;
@@ -231,13 +212,10 @@
   .bannerrightimg {
     width: 75%;
     height: 15vh;
-   display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     padding: auto;
     margin: auto;
-    
   }
-
-
 }

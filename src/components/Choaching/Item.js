@@ -10,5 +10,4 @@ export default styled.div`
   color: #000;
   margin: 53px 15px;
   font-size: 4em;
-
 `;

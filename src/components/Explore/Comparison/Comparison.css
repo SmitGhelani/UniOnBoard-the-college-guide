@@ -1,35 +1,33 @@
-
-.comparison{
+.comparison {
   width: 100%;
   height: 100%;
   overflow: hidden;
   margin: 0;
   display: flex;
   flex-direction: row;
-  align-items:flex-start;
-  justify-content:center;
+  align-items: flex-start;
+  justify-content: center;
   flex-wrap: wrap;
-  font-family: 'Poppins', sans-serif;
-  background-image: url('../../../../public/bgIg.png');
+  font-family: "Poppins", sans-serif;
+  background-image: url("../../../../public/bgIg.png");
   background-repeat: no-repeat;
-  background-attachment: fixed; 
+  background-attachment: fixed;
   background-size: 100% 100%;
 }
 
 @keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
-
-.boxClgOne{
+.boxClgOne {
   width: 310px;
   display: flex;
   flex-direction: column;
@@ -38,12 +36,18 @@
   padding: 20px;
   margin: 20px;
   border-radius: 10px;
-  background: linear-gradient(-45deg, rgb(226, 81, 81),rgba(210, 251, 77, 0.711),rgb(255, 73, 73),rgba(255, 0, 140, 0.545));
-	background-size: 400% 400%;
-	animation: gradient 10s ease infinite;
+  background: linear-gradient(
+    -45deg,
+    rgb(226, 81, 81),
+    rgba(210, 251, 77, 0.711),
+    rgb(255, 73, 73),
+    rgba(255, 0, 140, 0.545)
+  );
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
 }
 
-.boxClgTwo{
+.boxClgTwo {
   width: 310px;
   display: flex;
   flex-direction: column;
@@ -52,12 +56,18 @@
   padding: 20px;
   margin: 20px;
   border-radius: 10px;
-  background: linear-gradient(-45deg, #46504e, #ffffffb7, hsl(180, 7%, 32%), #bababa);
-	background-size: 400% 400%;
-	animation: gradient 10s ease infinite;
+  background: linear-gradient(
+    -45deg,
+    #46504e,
+    #ffffffb7,
+    hsl(180, 7%, 32%),
+    #bababa
+  );
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
 }
 
-.boxClgThree{
+.boxClgThree {
   width: 310px;
   display: flex;
   flex-direction: column;
@@ -67,8 +77,8 @@
   margin: 20px;
   border-radius: 10px;
   background: linear-gradient(-45deg, #516fe7, #73dbc5f0, #a0dda3e4, #4acddc);
-	background-size: 400% 400%;
-	animation: gradient 10s ease infinite;
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
 }
 
 .btnClg {
@@ -87,7 +97,7 @@
 ========================
 */
 .btnClgOneDesign {
-  color: #FFF;
+  color: #fff;
   transition: all 0.3s;
   position: relative;
 }
@@ -96,7 +106,7 @@
   color: white;
 }
 .btnClgOneDesign::before {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
@@ -109,19 +119,19 @@
   border-bottom-width: 1px;
   border-top-style: solid;
   border-bottom-style: solid;
-  border-top-color: rgba(255,255,255,0.5);
-  border-bottom-color: rgba(255,255,255,0.5);
+  border-top-color: rgba(255, 255, 255, 0.5);
+  border-bottom-color: rgba(255, 255, 255, 0.5);
   transform: scale(0.1, 1);
 }
 .btnClgOneDesign:hover span {
   letter-spacing: 2px;
 }
 .btnClgOneDesign:hover::before {
-  opacity: 1; 
-  transform: scale(1, 1); 
+  opacity: 1;
+  transform: scale(1, 1);
 }
 .btnClgOneDesign::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
@@ -129,13 +139,12 @@
   height: 100%;
   z-index: 1;
   transition: all 0.3s;
-  background-color: rgba(255,255,255,0.1);
+  background-color: rgba(255, 255, 255, 0.1);
 }
 .btnClgOneDesign:hover::after {
-  opacity: 0; 
+  opacity: 0;
   transform: scale(0.1, 1);
 }
-
 
 /* 
 ========================
@@ -143,20 +152,20 @@
 ========================
 */
 .btnClgTwoDesign {
-  color: #FFF;
+  color: #fff;
   transition: all 0.5s;
-  position: relative; 
+  position: relative;
 }
 .btnClgTwoDesign span {
-  z-index: 2; 
+  z-index: 2;
   color: white;
   display: block;
   position: absolute;
   width: 100%;
-  height: 100%; 
+  height: 100%;
 }
 .btnClgTwoDesign::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -164,11 +173,11 @@
   height: 100%;
   z-index: 1;
   transition: all 0.5s;
-  border: 1px solid rgba(255,255,255,0.2);
-  background-color: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.1);
 }
 .btnClgTwoDesign::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -176,18 +185,17 @@
   height: 100%;
   z-index: 1;
   transition: all 0.5s;
-  border: 1px solid rgba(255,255,255,0.2);
-  background-color: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.1);
 }
 .btnClgTwoDesign:hover::before {
   transform: rotate(-45deg);
-  background-color: rgba(255,255,255,0);
+  background-color: rgba(255, 255, 255, 0);
 }
 .btnClgTwoDesign:hover::after {
   transform: rotate(45deg);
-  background-color: rgba(255,255,255,0);
+  background-color: rgba(255, 255, 255, 0);
 }
-
 
 /* 
 ========================
@@ -195,37 +203,37 @@
 ========================
 */
 .btnClgThreeDesign {
-  color: #FFF;
+  color: #fff;
   transition: all 0.5s;
   position: relative;
 }
 
 .btnClgThreeDesign span {
-  z-index: 2; 
+  z-index: 2;
   color: white;
   display: block;
   position: absolute;
   width: 100%;
-  height: 100%; 
+  height: 100%;
 }
 
 .btnClgThreeDesign::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   z-index: 1;
-  background-color: rgba(255,255,255,0.1);
+  background-color: rgba(255, 255, 255, 0.1);
   transition: all 0.3s;
 }
 .btnClgThreeDesign:hover::before {
-  opacity: 0 ;
-  transform: scale(0.5,0.5);
+  opacity: 0;
+  transform: scale(0.5, 0.5);
 }
 .btnClgThreeDesign::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -234,15 +242,15 @@
   z-index: 1;
   opacity: 0;
   transition: all 0.3s;
-  border: 1px solid rgba(255,255,255,0.5);
-  transform: scale(1.2,1.2);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  transform: scale(1.2, 1.2);
 }
 .btnClgThreeDesign:hover::after {
   opacity: 1;
-  transform: scale(1,1);
+  transform: scale(1, 1);
 }
 
-.vsImg img{
+.vsImg img {
   align-items: center;
   justify-content: center;
   height: 150px;
@@ -251,7 +259,7 @@
   margin-top: 50vh;
 }
 
-.ClgCompareData{
+.ClgCompareData {
   background-color: aquamarine;
   padding: 0px;
   height: auto;
@@ -259,17 +267,17 @@
   padding: 20px;
   justify-content: center;
   align-items: center;
-  left:10px;
+  left: 10px;
 }
 
-.compareDataDiv{
+.compareDataDiv {
   margin: 5px;
   width: 200px;
   border: 1px solid black;
   border-radius: 5px;
 }
 
-.compareDataTitle{
+.compareDataTitle {
   width: 199px;
   border-bottom: 2px solid black;
   height: fit-content;
@@ -281,7 +289,7 @@
   border-radius: 5px;
 }
 
-.compareData{
+.compareData {
   background-color: rgb(236, 255, 252);
   width: 198px;
   height: auto;
@@ -291,7 +299,7 @@
   justify-content: center;
   border-radius: 5px;
 }
-.nameOfRec{
+.nameOfRec {
   text-align: left;
   background-color: rgb(255, 255, 255);
   border-radius: 5px;
@@ -299,44 +307,44 @@
   padding: 5px;
 }
 
-.dataCols{
+.dataCols {
   width: 100%;
   display: flex;
   flex-direction: row;
 }
 
 .modalCollegeList {
-    display: none; 
-    position: fixed; 
-    z-index: 9;
-    padding: 100px;
-    padding-top: 150px;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0,0.4);
-    border-radius: 20px;
+  display: none;
+  position: fixed;
+  z-index: 9;
+  padding: 100px;
+  padding-top: 150px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
 }
 
-.comparisonCollegeList{
-    background-color: #eee;
-    padding: 50px;
-    margin: auto;
-    border-radius: 20px;
-    border: 1px solid #888;
-    width: 80%;
+.comparisonCollegeList {
+  background-color: #eee;
+  padding: 50px;
+  margin: auto;
+  border-radius: 20px;
+  border: 1px solid #888;
+  width: 80%;
 }
 
 .close {
-    color: #aaaaaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
 }
-  
+
 .close:hover,
 .close:focus {
   color: #000;
@@ -344,13 +352,13 @@
   cursor: pointer;
 }
 
-.modalCollegeListBtns{
-  width:100%;
+.modalCollegeListBtns {
+  width: 100%;
   align-items: center;
   justify-content: center;
 }
 
-.collegeListBtn{
+.collegeListBtn {
   width: 100%;
   border-radius: 5px;
   font-size: 16px;
@@ -363,8 +371,8 @@
   text-align: left;
 }
 
-.visitNowBtn{
-  background-color:#516fe7;
+.visitNowBtn {
+  background-color: #516fe7;
   padding: 10px;
   color: white;
   border-radius: 10px;

@@ -1,7 +1,7 @@
-.courses{
+.courses {
   display: flex;
   flex-wrap: wrap;
-  background-color: rgba(237, 242, 246,1);
+  background-color: rgba(237, 242, 246, 1);
   align-items: center;
   justify-content: center;
 }
