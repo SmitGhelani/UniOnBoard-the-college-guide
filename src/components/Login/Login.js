@@ -90,8 +90,8 @@ const Login = () => {
               </Link>
               <ReCAPTCHA
                 className="recaptcha"
-                sitekey="6LcsjoEqAAAAADdYEqusVy5bclKX87hHrQI4tITt"
-                secretkey="6LcsjoEqAAAAABMxOMB6xx4S-P47uKSz19Za4THH"
+                sitekey={process.env.RECAPTCHA_SITE_KEY}
+                secretkey={process.env.RECAPTCHA_SECRET_KEY}
                 onChange={(val) => setCapVal(val)}
               />
               <button className="button1" type="submit" disabled={!capVal}>
