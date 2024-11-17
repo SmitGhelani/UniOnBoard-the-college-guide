@@ -5,6 +5,7 @@ import { useNavigate } from "react-router-dom";
 import "../signUp/signup.css";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import ReCAPTCHA from "react-google-recaptcha";
 
 // toast-configuration method,
 // it is compulsory method.
@@ -19,6 +20,7 @@ const initialState = {
 const Login = () => {
   const navigate = useNavigate();
   const [user, setUser] = useState(initialState);
+  const [capVal, setCapVal] = useState(null);
 
   const { email, password, err, success } = user;
 
@@ -86,7 +88,13 @@ const Login = () => {
               >
                 Forgot your password?
               </Link>
-              <button className="button1" type="submit">
+              <ReCAPTCHA
+                className="recaptcha"
+                sitekey="6LcsjoEqAAAAADdYEqusVy5bclKX87hHrQI4tITt"
+                secretkey="6LcsjoEqAAAAABMxOMB6xx4S-P47uKSz19Za4THH"
+                onChange={(val) => setCapVal(val)}
+              />
+              <button className="button1" type="submit" disabled={!capVal}>
                 Login
               </button>
             </form>
