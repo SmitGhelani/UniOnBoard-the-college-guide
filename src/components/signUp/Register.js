@@ -185,7 +185,7 @@ function Register() {
               <input type="hidden" id="role" name="role" value="student" />
               <ReCAPTCHA
                 className="recaptcha"
-                sitekey={"${process.env.RECAPTCHA_SITE_KEY}"}
+                sitekey={process.env.REACT_APP_RECAPTCHA_SITE_KEY}
                 onChange={(val) => setCapValFac(val)}
               />
               <button className="button1" type="submit" disabled={!capValFac}>
@@ -234,7 +234,7 @@ function Register() {
               <ReCAPTCHA
                 className="recaptcha"
                 sitekey={process.env.REACT_APP_RECAPTCHA_SITE_KEY}
-                onChange={(val) => setCapVal(val)}
+                onChange={(val) => setCapValStudent(val)}
               />
               <button className="button1" type="submit" disabled={!capValStudent}>
                 Sign up
