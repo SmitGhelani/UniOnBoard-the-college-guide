@@ -233,8 +233,8 @@ function Register() {
               />
               <ReCAPTCHA
                 className="recaptcha"
-                sitekey={"${process.env.RECAPTCHA_SITE_KEY}"}
-                onChange={(val) => setCapValStudent(val)}
+                sitekey={process.env.REACT_APP_RECAPTCHA_SITE_KEY}
+                onChange={(val) => setCapVal(val)}
               />
               <button className="button1" type="submit" disabled={!capValStudent}>
                 Sign up
