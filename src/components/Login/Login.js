@@ -89,7 +89,7 @@ const Login = () => {
               </Link>
               <ReCAPTCHA
                 className="recaptcha"
-                sitekey={"${process.env.RECAPTCHA_SITE_KEY}"}
+                sitekey={process.env.RECAPTCHA_SITE_KEY}
                 onChange={(val) => setCapVal(val)}
               />
               <button className="button1" type="submit" disabled={!capVal}>
