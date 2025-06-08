@@ -57,7 +57,7 @@ const Navbar = (props) => {
 
   useEffect(() => {
     axios
-      .get("https://unionboard-backend.smitghelani.xyz/cookiestatus", {
+      .get("https://unionboard-backend.smitghelani.site/cookiestatus", {
         withCredentials: true, // Allows cookies to be sent with the request
       })
       .then((response) => {
@@ -72,7 +72,7 @@ const Navbar = (props) => {
   const logoutCall = async () => {
     try {
       const res = await fetch(
-        "https://unionboard-backend.smitghelani.xyz/logout",
+        "https://unionboard-backend.smitghelani.site/logout",
         {
           method: "GET",
           headers: {

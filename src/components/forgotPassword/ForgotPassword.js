@@ -25,7 +25,7 @@ function ForgotPassword() {
   const forgotPassword = async () => {
     try {
       const res = await axios.post(
-        "https://unionboard-backend.smitghelani.xyz/forgotPassword",
+        "https://unionboard-backend.smitghelani.site/forgotPassword",
         { email }
       );
 

@@ -76,17 +76,17 @@ const Coachingdetails = (props) => {
             <div className="couponCard">
               <img
                 className="cdInfoCouponGradient"
-                src="https://unionboard.smitghelani.xyz/cdInfoCoupon.png"
+                src="https://unionboard.smitghelani.site/cdInfoCoupon.png"
                 alt="Gradient img"
               />
               <img
                 className="cdInfoCouponGradient2"
-                src="https://unionboard.smitghelani.xyz/cdInfoCouponDesignBG.png"
+                src="https://unionboard.smitghelani.site/cdInfoCouponDesignBG.png"
                 alt="Gradient img2"
               />
               <img
                 className="cdInfoCouponLogo"
-                src="https://unionboard.smitghelani.xyz/cdInfoCouponLogo.png"
+                src="https://unionboard.smitghelani.site/cdInfoCouponLogo.png"
                 alt="Gradient img3"
               />
               <p className="cdInfoCouponText1">INPORTANT INFORMATION</p>

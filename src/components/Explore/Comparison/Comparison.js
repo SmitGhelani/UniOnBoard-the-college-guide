@@ -14,7 +14,7 @@ export default function Comparison() {
 
   useEffect(() => {
     axios
-      .get("https://unionboard-backend.smitghelani.xyz/getAllPlcData")
+      .get("https://unionboard-backend.smitghelani.site/getAllPlcData")
       .then((response) => {
         setCollegeList(response.data.plcData);
       })
@@ -43,7 +43,7 @@ export default function Comparison() {
   const findCollegeData = (id, i) => {
     if (i === 1) {
       axios
-        .get(`https://unionboard-backend.smitghelani.xyz/comparison/${id}`)
+        .get(`https://unionboard-backend.smitghelani.site/comparison/${id}`)
         .then((response) => {
           setDataOne(response.data.result);
           setBranchListOne(Object.keys(response.data.result.branches));
@@ -63,7 +63,7 @@ export default function Comparison() {
         });
     } else if (i === 2) {
       axios
-        .get(`https://unionboard-backend.smitghelani.xyz/comparison/${id}`)
+        .get(`https://unionboard-backend.smitghelani.site/comparison/${id}`)
         .then((response) => {
           setDataTwo(response.data.result);
           setBranchListTwo(Object.keys(response.data.result.branches));
@@ -83,7 +83,7 @@ export default function Comparison() {
         });
     } else if (i === 3) {
       axios
-        .get(`https://unionboard-backend.smitghelani.xyz/comparison/${id}`)
+        .get(`https://unionboard-backend.smitghelani.site/comparison/${id}`)
         .then((response) => {
           setDataThree(response.data.result);
           setBranchListThree(Object.keys(response.data.result.branches));

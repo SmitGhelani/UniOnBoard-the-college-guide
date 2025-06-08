@@ -10,7 +10,7 @@ export default function Courses() {
 
   useEffect(() => {
     axios
-      .get("https://unionboard-backend.smitghelani.xyz/getAllFacultyCourse", {
+      .get("https://unionboard-backend.smitghelani.site/getAllFacultyCourse", {
         headers: {
           Accept: "application/json",
           "Content-Type": "application/json",

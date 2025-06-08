@@ -23,7 +23,7 @@ function DashboardMain() {
   const [addCourseDisplay, setAddCourseDisplay] = useState("none");
   const [updateCourseDisplay, setUpdateCourseDisplay] = useState("none");
 
-  const dashboardURL = "https://unionboard-backend.smitghelani.xyz/dashboard";
+  const dashboardURL = "https://unionboard-backend.smitghelani.site/dashboard";
 
   useEffect(() => {
     axios

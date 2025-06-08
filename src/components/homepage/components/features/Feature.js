@@ -12,7 +12,7 @@ const Feature = () => {
 
   const allcityApiCall = React.useCallback(async () => {
     const res = await fetch(
-      "https://unionboard-backend.smitghelani.xyz/getHomeInst",
+      "https://unionboard-backend.smitghelani.site/getHomeInst",
       {
         method: "GET",
         headers: {

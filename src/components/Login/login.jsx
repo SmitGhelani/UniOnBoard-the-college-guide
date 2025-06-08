@@ -43,7 +43,7 @@ function Login() {
       formData.append("password", password);
 
       axios
-        .post("https://unionboard-backend.smitghelani.xyz/login", formData, {
+        .post("https://unionboard-backend.smitghelani.site/login", formData, {
           headers: {
             "Content-Type": "application/json",
           },

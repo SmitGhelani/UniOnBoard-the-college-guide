@@ -38,7 +38,7 @@ function Register() {
     let role = "student";
     try {
       const res = await axios.post(
-        "https://unionboard-backend.smitghelani.xyz/signup",
+        "https://unionboard-backend.smitghelani.site/signup",
         {
           name,
           email,
@@ -89,7 +89,7 @@ function Register() {
 
       axios
         .post(
-          "https://unionboard-backend.smitghelani.xyz/signupFaculty",
+          "https://unionboard-backend.smitghelani.site/signupFaculty",
           formData,
           config
         )

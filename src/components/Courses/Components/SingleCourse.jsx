@@ -8,7 +8,7 @@ import "./SingleCourse.css";
 
 export default function SingleCourse() {
   const { id } = useParams();
-  const apiURL = `https://unionboard-backend.smitghelani.xyz/getCourseContent/${id}`;
+  const apiURL = `https://unionboard-backend.smitghelani.site/getCourseContent/${id}`;
   const [sectionData, setSectionData] = useState([]);
   const [courseData, setCourseData] = useState({});
   const [mainPanelSrc, setMainPanelSrc] = useState("");
@@ -105,7 +105,7 @@ export default function SingleCourse() {
   useEffect(() => {
     axios
       .get(
-        `https://unionboard-backend.smitghelani.xyz/getCourseContent/${id}`,
+        `https://unionboard-backend.smitghelani.site/getCourseContent/${id}`,
         {
           headers: {
             Accept: "application/json",

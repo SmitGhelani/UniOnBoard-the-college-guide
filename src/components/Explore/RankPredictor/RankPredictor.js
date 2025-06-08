@@ -24,7 +24,7 @@ const RankPredictor = () => {
       body: JSON.stringify({ gujcetPR: gujcetpr, sciencePR: sciencepr }),
     };
     fetch(
-      "https://unionboard-backend.smitghelani.xyz/calculateRank",
+      "https://unionboard-backend.smitghelani.site/calculateRank",
       requestOptions
     )
       .then((response) => response.json())

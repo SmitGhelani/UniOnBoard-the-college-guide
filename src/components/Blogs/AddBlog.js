@@ -32,7 +32,7 @@ const AddBlog = () => {
 
     axios
       .post(
-        "https://unionboard-backend.smitghelani.xyz/faculty/blog/add",
+        "https://unionboard-backend.smitghelani.site/faculty/blog/add",
         formData,
         config
       )

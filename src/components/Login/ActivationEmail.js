@@ -19,7 +19,7 @@ function ActivationEmail() {
       const activationEmail = async () => {
         try {
           const res = await axios.post(
-            `https://unionboard-backend.smitghelani.xyz/activateEmail/${activation_token}`
+            `https://unionboard-backend.smitghelani.site/activateEmail/${activation_token}`
           );
           setSuccess(res.data.message);
           setTimeout(() => {

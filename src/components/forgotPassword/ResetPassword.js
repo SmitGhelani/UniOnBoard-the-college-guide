@@ -31,7 +31,7 @@ function ResetPassword() {
   const handleResetPass = async () => {
     try {
       const res = await axios.post(
-        `https://unionboard-backend.smitghelani.xyz/resetPassword/${token}`,
+        `https://unionboard-backend.smitghelani.site/resetPassword/${token}`,
         { password, conf_password },
         {
           headers: { Authorization: token },

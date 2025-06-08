@@ -14,7 +14,7 @@ const Review = () => {
               <Reviewcard
                 name="Sneh Trivedi"
                 designation="IT DEPT."
-                src="https://unionboard.smitghelani.xyz/snehPic.jpg"
+                src="https://unionboard.smitghelani.site/snehPic.jpg"
                 description="One of the best college of Gujarat for pursuing an engineering. All Faculties are knowledgeable and supportive. College's infrastructur is also top-notch."
               />
             </Col>
@@ -22,7 +22,7 @@ const Review = () => {
               <Reviewcard
                 name="Anuj Gajjar"
                 designation="CP DEPT."
-                src="https://unionboard.smitghelani.xyz/anujPic.jpeg"
+                src="https://unionboard.smitghelani.site/anujPic.jpeg"
                 description="One of the best college of Gujarat for pursuing an engineering. All Faculties are knowledgeable and supportive. College's infrastructur is also top-notch."
               />
             </Col>
@@ -30,7 +30,7 @@ const Review = () => {
               <Reviewcard
                 name="Kalp Gohil"
                 designation="EC DEPT."
-                src="https://unionboard.smitghelani.xyz/kalpPic.png"
+                src="https://unionboard.smitghelani.site/kalpPic.png"
                 description="One of the best college of Gujarat for pursuing an engineering. All Faculties are knowledgeable and supportive. College's infrastructur is also top-notch."
               />
             </Col>

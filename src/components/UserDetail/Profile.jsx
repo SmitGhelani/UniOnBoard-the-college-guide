@@ -40,11 +40,11 @@ function a11yProps(index) {
 }
 
 function Profile() {
-  const dashboardURL = "https://unionboard-backend.smitghelani.xyz/dashboard";
+  const dashboardURL = "https://unionboard-backend.smitghelani.site/dashboard";
   const facultyPersonalBlogs =
-    "https://unionboard-backend.smitghelani.xyz/faculty/getFacultyPersonalBlogs";
+    "https://unionboard-backend.smitghelani.site/faculty/getFacultyPersonalBlogs";
   const changePassword =
-    "https://unionboard-backend.smitghelani.xyz/updatePassword";
+    "https://unionboard-backend.smitghelani.site/updatePassword";
 
   const [userData, setUserData] = React.useState("");
   const [blogBtn, setBlogBtn] = useState("none");

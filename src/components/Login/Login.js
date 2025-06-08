@@ -32,7 +32,7 @@ const Login = () => {
     e.preventDefault();
     try {
       const res = await axios.post(
-        "https://unionboard-backend.smitghelani.xyz/login",
+        "https://unionboard-backend.smitghelani.site/login",
         { email, password },
         {
           headers: {

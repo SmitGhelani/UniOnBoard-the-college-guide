@@ -32,7 +32,7 @@ const ClgRecommender = () => {
       }),
     };
     fetch(
-      "https://unionboard-backend.smitghelani.xyz/collegeRecommander",
+      "https://unionboard-backend.smitghelani.site/collegeRecommander",
       requestOptions
     )
       .then((response) => response.json())
@@ -52,19 +52,19 @@ const ClgRecommender = () => {
   };
   useEffect(() => {
     axios
-      .get("https://unionboard-backend.smitghelani.xyz/getCityList")
+      .get("https://unionboard-backend.smitghelani.site/getCityList")
       .then((response) => {
         console.log(response.data.cities);
         setCities(response.data.cities);
       });
     axios
-      .get("https://unionboard-backend.smitghelani.xyz/getBranchList")
+      .get("https://unionboard-backend.smitghelani.site/getBranchList")
       .then((response) => {
         console.log(response.data.branches);
         setBranches(response.data.branches);
       });
     axios
-      .get("https://unionboard-backend.smitghelani.xyz/getCollegeList")
+      .get("https://unionboard-backend.smitghelani.site/getCollegeList")
       .then((response) => {
         setClgs(response.data.colleges);
       });

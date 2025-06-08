@@ -38,7 +38,7 @@ function Rankers(props) {
                   title="Sneh Trivedi"
                   designation="IT DEPT."
                   description="Web Lead - IEEE (2020-21) || Event Organiser - IEEE (2020)"
-                  imgsrc="https://unionboard.smitghelani.xyz/snehPic.jpg"
+                  imgsrc="https://unionboard.smitghelani.site/snehPic.jpg"
                 />
               </Item>
               <Item>
@@ -46,7 +46,7 @@ function Rankers(props) {
                   title="Anuj Gajjar"
                   designation="CP DEPT."
                   description="Stood first in the all India robotics event"
-                  imgsrc="https://unionboard.smitghelani.xyz/anujPic.jpeg"
+                  imgsrc="https://unionboard.smitghelani.site/anujPic.jpeg"
                 />
               </Item>
               <Item>
@@ -54,7 +54,7 @@ function Rankers(props) {
                   title="Kalp Gohil"
                   designation="EC DEPT."
                   description="University Topper"
-                  imgsrc="https://unionboard.smitghelani.xyz/kalpPic.png"
+                  imgsrc="https://unionboard.smitghelani.site/kalpPic.png"
                 />
               </Item>
               <Item>Four</Item>

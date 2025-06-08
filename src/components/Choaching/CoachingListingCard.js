@@ -41,7 +41,7 @@ const CoachingListingCard = (props) => {
               <Row>
                 <Col sm={1} className="LocationLogoCol">
                   <img
-                    src="https://unionboard.smitghelani.xyz/location.png"
+                    src="https://unionboard.smitghelani.site/location.png"
                     alt="LocationLogo"
                     className="instituteLocationImg"
                   />
@@ -53,7 +53,7 @@ const CoachingListingCard = (props) => {
               <Row>
                 <Col sm={1} className="LocationLogoCol">
                   <img
-                    src="https://unionboard.smitghelani.xyz/discount.png"
+                    src="https://unionboard.smitghelani.site/discount.png"
                     alt="LocationLogo"
                     className="instituteLocationImg"
                   />
@@ -65,7 +65,7 @@ const CoachingListingCard = (props) => {
               <Row>
                 <Col sm={1} className="LocationLogoCol">
                   <img
-                    src="https://unionboard.smitghelani.xyz/rupee.png"
+                    src="https://unionboard.smitghelani.site/rupee.png"
                     alt="LocationLogo"
                     className="instituteLocationImg"
                   />

@@ -19,7 +19,7 @@ const BlogListing = () => {
 
   const allBlogsApiCall = React.useCallback(async () => {
     const res = await fetch(
-      "https://unionboard-backend.smitghelani.xyz/getAllBlog",
+      "https://unionboard-backend.smitghelani.site/getAllBlog",
       {
         method: "GET",
         headers: {

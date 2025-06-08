@@ -18,7 +18,7 @@ const ChangePassword = () => {
     try {
       axios
         .post(
-          "https://unionboard-backend.smitghelani.xyz/updatePassword",
+          "https://unionboard-backend.smitghelani.site/updatePassword",
           formValues,
           {
             headers: {

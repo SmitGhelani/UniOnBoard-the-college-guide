@@ -37,35 +37,35 @@ function Faculty(props) {
                 <Facultycards
                   title="Dr.Keyur Brahmbhatt"
                   description="AI & DATA ANALYSIS"
-                  imgsrc="https://unionboard.smitghelani.xyz/keyurSir.jpg"
+                  imgsrc="https://unionboard.smitghelani.site/keyurSir.jpg"
                 />
               </Item>
               <Item>
                 <Facultycards
                   title=" Dr.Zankhana Shah"
                   description="THEORY OF COMPUTATION"
-                  imgsrc="https://unionboard.smitghelani.xyz/zankhanaMam.jpg"
+                  imgsrc="https://unionboard.smitghelani.site/zankhanaMam.jpg"
                 />
               </Item>
               <Item>
                 <Facultycards
                   title=" Mr.Vishal Polara"
                   description="PYTHON PROGRAMMING"
-                  imgsrc="https://unionboard.smitghelani.xyz/vishalSir.jpg"
+                  imgsrc="https://unionboard.smitghelani.site/vishalSir.jpg"
                 />
               </Item>
               <Item>
                 <Facultycards
                   title=" Prachi Shah"
                   description="OPERATING SYSTEMS"
-                  imgsrc="https://unionboard.smitghelani.xyz/prachiMam.jpg"
+                  imgsrc="https://unionboard.smitghelani.site/prachiMam.jpg"
                 />
               </Item>
               <Item>
                 <Facultycards
                   title=" Mr.Priyank Bhojak"
                   description=".NET TECHNOLOGY"
-                  imgsrc="https://unionboard.smitghelani.xyz/priyankSir.jpg"
+                  imgsrc="https://unionboard.smitghelani.site/priyankSir.jpg"
                 />
               </Item>
               <Item>Six</Item>

@@ -24,7 +24,7 @@ const FactBlogs = () => {
   const [sIndex, setSindex] = useState(0);
   const [eIndex, setEindex] = useState(3);
   const facultyPersonalBlogs =
-    "https://unionboard-backend.smitghelani.xyz/faculty/getFacultyPersonalBlogs";
+    "https://unionboard-backend.smitghelani.site/faculty/getFacultyPersonalBlogs";
   const [viewBlog, setViewBlog] = useState(true);
   const [BbtnText, setBbtnText] = useState("My Blogs");
   const [dltBlog, setDltBlog] = useState(false);
@@ -58,7 +58,7 @@ const FactBlogs = () => {
 
     axios
       .put(
-        `https://unionboard-backend.smitghelani.xyz/faculty/blog/${blogID}`,
+        `https://unionboard-backend.smitghelani.site/faculty/blog/${blogID}`,
         formData,
         config
       )
@@ -93,7 +93,7 @@ const FactBlogs = () => {
     }
 
     if (dltBlog) {
-      const blogDltURL = `https://unionboard-backend.smitghelani.xyz/faculty/blog/${blogID}`;
+      const blogDltURL = `https://unionboard-backend.smitghelani.site/faculty/blog/${blogID}`;
       axios
         .delete(blogDltURL, {
           headers: {

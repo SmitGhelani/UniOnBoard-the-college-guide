@@ -33,7 +33,7 @@ const Addreview = ({ id }) => {
 
     axios
       .put(
-        `https://unionboard-backend.smitghelani.xyz/review/${id}`,
+        `https://unionboard-backend.smitghelani.site/review/${id}`,
         formData,
         config
       )

@@ -22,7 +22,7 @@ const ReqFaculties = () => {
 
     axios
       .put(
-        `https://unionboard-backend.smitghelani.xyz/admin/verifyOneFaculty/${id}`,
+        `https://unionboard-backend.smitghelani.site/admin/verifyOneFaculty/${id}`,
         formData,
         config
       )
@@ -52,7 +52,7 @@ const ReqFaculties = () => {
     };
     axios
       .put(
-        `https://unionboard-backend.smitghelani.xyz/admin/verifyOneFaculty/${id}`,
+        `https://unionboard-backend.smitghelani.site/admin/verifyOneFaculty/${id}`,
         formData,
         config
       )
@@ -73,7 +73,7 @@ const ReqFaculties = () => {
     //admin/getRequestedFaculties
     axios
       .get(
-        "https://unionboard-backend.smitghelani.xyz/admin/getRequestedFaculties",
+        "https://unionboard-backend.smitghelani.site/admin/getRequestedFaculties",
         {
           headers: {
             Accept: "application/json",
